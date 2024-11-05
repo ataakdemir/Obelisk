@@ -1,0 +1,21 @@
+# Normalize all text files to LF line endings 
+* text=auto
+
+# Force CRLF line endings for certain types (like .bat scripts on Windows)
+*.bat text eol=crlf
+
+# Unity specific settings
+*.cs     text diff=csharp
+*.shader text
+*.cginc  text
+*.hlsl   text
+*.glsl   text
+*.json   text
+*.meta   text
+*.anim   text
+*.controller text
+*.unity  text
+*.prefab text
+*.mat    text
+*.asset  text
+* text=auto eol=lf
