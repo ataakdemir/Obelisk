@@ -1,0 +1,37 @@
+# Unity meta dosyaları
+*.meta text
+
+# Unity sahne ve varlık dosyaları
+*.unity text
+*.prefab text
+*.anim text
+*.mat text
+*.controller text
+
+# Shader dosyaları
+*.shader text
+*.cginc text
+
+# C# kod dosyaları
+*.cs text diff=csharp
+
+# İkili dosyalar (satır sonu dönüşümünü engeller)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tga binary
+*.psd binary
+*.exr binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.fbx binary
+*.blend binary
+*.zip binary
+*.dll binary
+*.exe binary
+
+# Normalize satır sonları
+* text=auto

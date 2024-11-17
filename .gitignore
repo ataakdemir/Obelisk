@@ -1,0 +1,30 @@
+# Unity dosyaları
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# IDE ve kullanıcı ayarları
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Cache dosyaları
+*.stackdump
+*.csc
+
+# Auto-generated dosyalar
+*.generated.cs
+
+# Paket yöneticisi
+Packages/*-lock.json
