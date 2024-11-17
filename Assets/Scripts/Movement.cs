@@ -15,7 +15,7 @@ public class Movement : MonoBehaviour
 
     public Interactable Interactable { get; set; }
 
-    private Vector2 movementInput;
+    private Vector3 movementInput;
 
     void Start()
     {
@@ -24,22 +24,26 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        movementInput.x = Input.GetAxis("Horizontal");
-        movementInput.y = Input.GetAxis("Vertical");
-
-        if (dialogueUI.isOpen) return;
+        if (dialogueUI.isOpen)
+        {
+            speed = 0;
+        }
+        else
+        {
+            speed = 6;
+        }
 
         if (Input.GetKeyDown(KeyCode.E))
         {
             Interactable?.Interact(this); // Null kontrolu yapiyor, null degilse metodu cagýrýyor
         }
     }
-
     void FixedUpdate()
     {
-        rb.velocity = movementInput.normalized * speed;
+        movementInput = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical") * 0.8f , 0f);
+        transform.position += movementInput.normalized * Time.fixedDeltaTime * speed;
 
-        if (movementInput.x < 0)
+        if (movementInput.x < 0 && !dialogueUI.isOpen)
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
@@ -47,6 +51,7 @@ public class Movement : MonoBehaviour
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

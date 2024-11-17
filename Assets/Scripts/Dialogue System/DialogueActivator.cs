@@ -4,7 +4,6 @@ public class DialogueActivator : MonoBehaviour, Interactable
 {
     [SerializeField] private DialogueObject initialDialogueObject;
     private DialogueObject currentDialogueObject;
-
     private void Start()
     {
         currentDialogueObject = initialDialogueObject;
@@ -13,6 +12,7 @@ public class DialogueActivator : MonoBehaviour, Interactable
     public void Interact(Movement player)
     {
         player.DialogueUI.ShowDialogue(currentDialogueObject);
+   
     }
 
     public void UpdateDialogue(DialogueObject newDialogue)

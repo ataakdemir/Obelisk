@@ -6,20 +6,18 @@ public class ItemInteraction : MonoBehaviour, Interactable
     [SerializeField] private DialogueObject newDialogueObjectForNPC;
     [SerializeField] private DialogueObject playerThoughtsDialogueObject; 
 
-    private bool hasInteracted = false;
+    private bool hasUpdatedNPCDialogue = false;
 
     public void Interact(Movement player)
     {
-        if (!hasInteracted)
+        player.DialogueUI.ShowDialogue(playerThoughtsDialogueObject, () =>
         {
-            hasInteracted = true;
-
-            player.DialogueUI.ShowDialogue(playerThoughtsDialogueObject, () =>
+            if (!hasUpdatedNPCDialogue)
             {
                 npcDialogueActivator.UpdateDialogue(newDialogueObjectForNPC);
-
-            });
-        }
+                hasUpdatedNPCDialogue = true;
+            }
+        });
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 4698062274175083810}
-  speed: 3
+  speed: 6
   startingPos: {fileID: 11400000, guid: 5e6d094ce7b96564798ab421fab0db8b, type: 2}
   dialogueUI: {fileID: 0}
 --- !u!70 &4964153923167353631
@@ -162,6 +162,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.017861605, y: 0}
-  m_Size: {x: 2.1066356, y: 4.0000277}
+  m_Offset: {x: -0.21249223, y: 0}
+  m_Size: {x: 1.6459279, y: 4.0000277}
   m_Direction: 0
