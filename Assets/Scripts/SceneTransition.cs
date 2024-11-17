@@ -5,7 +5,7 @@ using System.Collections;
 public class SceneTransition : MonoBehaviour
 {
     public string sceneToLoad;
-    public Vector2 playerPosition;
+    public Vector2 playerPosition; 
     public VectorValue playerStorage;
 
     private bool isTransitioning = false;
@@ -23,7 +23,7 @@ public class SceneTransition : MonoBehaviour
     private IEnumerator Transition()
     {
         LevelLoad.Instance.FadeOut();
-        yield return new WaitForSeconds(1); 
+        yield return new WaitForSeconds(0);
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneToLoad);
         while (!asyncLoad.isDone)
@@ -32,7 +32,7 @@ public class SceneTransition : MonoBehaviour
         }
 
         LevelLoad.Instance.FadeIn();
-        yield return new WaitForSeconds(1); 
+        yield return new WaitForSeconds(1);
 
         isTransitioning = false;
     }
