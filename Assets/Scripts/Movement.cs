@@ -17,13 +17,18 @@ public class Movement : MonoBehaviour
 
     private Vector3 movementInput;
 
+    private Animator animator;
+
+         
     void Start()
     {
-        transform.position = startingPos.initialValue;
+    animator = GetComponent<Animator>();
+    transform.position = startingPos.initialValue;
     }
 
     void Update()
     {
+        UpdateAnimator();
         if (dialogueUI.isOpen)
         {
             speed = 0;
@@ -37,6 +42,11 @@ public class Movement : MonoBehaviour
         {
             Interactable?.Interact(this); // Null kontrolu yapiyor, null degilse metodu cagýrýyor
         }
+    }
+    void UpdateAnimator()
+    {
+        float currentSpeed = movementInput.magnitude;
+        animator.SetFloat("Speed", currentSpeed);
     }
     void FixedUpdate()
     {
