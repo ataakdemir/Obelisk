@@ -10,13 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
-  m_Name: eski diyalog
+  m_Name: evet
   m_EditorClassIdentifier: 
   dialogue:
-  - "sana birka\xE7 sorum var"
-  - tabiki
-  responses:
-  - responseText: evet
-    dialogueObject: {fileID: 11400000, guid: d408b88db5c4bf947bedaccee336ae79, type: 2}
-  - responseText: "hay\u0131r"
-    dialogueObject: {fileID: 11400000, guid: 00b2599afd7f18c4a8d6610fc7d56e6f, type: 2}
+  - evet dedin
+  responses: []
