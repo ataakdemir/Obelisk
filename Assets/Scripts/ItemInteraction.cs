@@ -4,7 +4,7 @@ public class ItemInteraction : MonoBehaviour, Interactable
 {
     [SerializeField] private DialogueActivator npcDialogueActivator;
     [SerializeField] private DialogueObject newDialogueObjectForNPC;
-    [SerializeField] private DialogueObject playerThoughtsDialogueObject; 
+    [SerializeField] private DialogueObject playerThoughtsDialogueObject;
 
     private bool hasUpdatedNPCDialogue = false;
 

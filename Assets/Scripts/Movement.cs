@@ -33,14 +33,14 @@ public class Movement : MonoBehaviour
             speed = 6;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && !dialogueUI.isOpen)
         {
             Interactable?.Interact(this); // Null kontrolu yapiyor, null degilse metodu cagýrýyor
         }
     }
     void FixedUpdate()
     {
-        movementInput = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical") * 0.8f , 0f);
+        movementInput = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical") * 0.8f, 0f);
         transform.position += movementInput.normalized * Time.fixedDeltaTime * speed;
 
         if (movementInput.x < 0 && !dialogueUI.isOpen)

@@ -51,3 +51,4 @@ public class ResponseHandler : MonoBehaviour
         dialogueUI.ShowDialogue(response.DialogueObject);
     }
 }
+
