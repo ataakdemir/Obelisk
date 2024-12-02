@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -8,52 +6,57 @@ public class Movement : MonoBehaviour
     public float speed;
 
     public VectorValue startingPos;
-
     [SerializeField] private DialogueUI dialogueUI;
 
     public DialogueUI DialogueUI => dialogueUI;
-
     public Interactable Interactable { get; set; }
 
     private Vector3 movementInput;
-
     private Animator animator;
 
-         
+    public GameObject decisionPanel;
     void Start()
     {
-    animator = GetComponent<Animator>();
-    transform.position = startingPos.initialValue;
+        animator = GetComponent<Animator>();
+        transform.position = startingPos.initialValue;
     }
 
     void Update()
     {
         UpdateAnimator();
-        if (dialogueUI.isOpen)
+
+        if (dialogueUI != null && dialogueUI.isOpen || decisionPanel.activeSelf)
         {
             speed = 0;
         }
         else
         {
-            speed = 6;
+            speed = 5;
         }
 
-        if (Input.GetKeyDown(KeyCode.E) && !dialogueUI.isOpen)
+        if (Input.GetKeyDown(KeyCode.E) && dialogueUI != null && !dialogueUI.isOpen)
         {
-            Interactable?.Interact(this); // Null kontrolu yapiyor, null degilse metodu cagýrýyor
+            Interactable?.Interact(this);
         }
-    }
-    void UpdateAnimator()
-    {
-        float currentSpeed = movementInput.magnitude;
-        animator.SetFloat("Speed", currentSpeed);
+
+        if (Input.GetKeyDown(KeyCode.Escape) && dialogueUI != null && dialogueUI.isOpen)
+        {
+            dialogueUI.CloseDialogueBox();
+        }
+
+        if (Input.GetKeyDown(KeyCode.B) && !dialogueUI.isOpen)
+        {
+            bool isActive = decisionPanel.activeSelf;
+            decisionPanel.SetActive(!isActive);
+        }
+
     }
     void FixedUpdate()
     {
         movementInput = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical") * 0.8f, 0f);
         transform.position += movementInput.normalized * Time.fixedDeltaTime * speed;
 
-        if (movementInput.x < 0 && !dialogueUI.isOpen)
+        if (movementInput.x < 0 && (dialogueUI == null || !dialogueUI.isOpen))
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
@@ -61,8 +64,17 @@ public class Movement : MonoBehaviour
         {
             transform.localScale = new Vector3(-1, 1, 1);
         }
-
     }
+
+    void HandleMovement()
+    {
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
+        Vector3 move = new Vector3(moveX, 0, moveZ);
+
+        transform.Translate(move * Time.deltaTime * 5f); 
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent<Interactable>(out var interactable))
@@ -80,5 +92,11 @@ public class Movement : MonoBehaviour
                 Interactable = null;
             }
         }
+    }
+
+    void UpdateAnimator()
+    {
+        float currentSpeed = movementInput.magnitude;
+        animator.SetFloat("Speed", currentSpeed);
     }
 }

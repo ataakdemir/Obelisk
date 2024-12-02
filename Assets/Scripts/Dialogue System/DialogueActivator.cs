@@ -2,22 +2,14 @@ using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour, Interactable
 {
+    [SerializeField] private string npcId; 
     [SerializeField] private DialogueObject initialDialogueObject;
-    private DialogueObject currentDialogueObject;
-
-    private void Start()
-    {
-        currentDialogueObject = initialDialogueObject;
-    }
 
     public void Interact(Movement player)
     {
+        // Get the current dialogue for the NPC from GameManager
+        DialogueObject currentDialogueObject = GameManager.Instance.GetNPCDialogue(npcId) ?? initialDialogueObject;
         player.DialogueUI.ShowDialogue(currentDialogueObject);
-    }
-
-    public void UpdateDialogue(DialogueObject newDialogue)
-    {
-        currentDialogueObject = newDialogue;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

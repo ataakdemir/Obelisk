@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ItemInteraction : MonoBehaviour, Interactable
 {
-    [SerializeField] private DialogueActivator npcDialogueActivator;
+    [SerializeField] private string itemId;
+    [SerializeField] private string npcId; 
     [SerializeField] private DialogueObject newDialogueObjectForNPC;
     [SerializeField] private DialogueObject playerThoughtsDialogueObject;
 
@@ -14,7 +15,8 @@ public class ItemInteraction : MonoBehaviour, Interactable
         {
             if (!hasUpdatedNPCDialogue)
             {
-                npcDialogueActivator.UpdateDialogue(newDialogueObjectForNPC);
+                GameManager.Instance.SetItemInteracted(itemId, true); // Mark item as interacted
+                GameManager.Instance.UpdateNPCDialogue(npcId, newDialogueObjectForNPC); // Update NPC dialogue
                 hasUpdatedNPCDialogue = true;
             }
         });
