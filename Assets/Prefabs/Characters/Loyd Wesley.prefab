@@ -143,4 +143,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e5d84e4761fd464eb05a3962aa820dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcId: e1
   initialDialogueObject: {fileID: 0}

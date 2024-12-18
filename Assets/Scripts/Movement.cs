@@ -15,6 +15,7 @@ public class Movement : MonoBehaviour
     private Animator animator;
 
     public GameObject decisionPanel;
+    public GameObject emptyBoard;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -46,10 +47,26 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.B) && !dialogueUI.isOpen)
         {
-            bool isActive = decisionPanel.activeSelf;
-            decisionPanel.SetActive(!isActive);
+            if (!decisionPanel.activeSelf) // Panel kapal ysa
+            {
+                if (GameManager.Instance.AllNPCsTalkedTo())
+                {
+                    decisionPanel.SetActive(true);
+                    emptyBoard.SetActive(false);
+                }
+                else
+                {
+                    decisionPanel.SetActive(true);
+                    emptyBoard.SetActive(true);
+                }
+            }
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape) && decisionPanel.activeSelf)
+        {
+            decisionPanel.SetActive(false);
+            emptyBoard.SetActive(false);
+        }
     }
     void FixedUpdate()
     {
@@ -72,7 +89,7 @@ public class Movement : MonoBehaviour
         float moveZ = Input.GetAxis("Vertical");
         Vector3 move = new Vector3(moveX, 0, moveZ);
 
-        transform.Translate(move * Time.deltaTime * 5f); 
+        transform.Translate(move * Time.deltaTime * 5f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

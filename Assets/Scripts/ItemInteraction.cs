@@ -7,6 +7,7 @@ public class ItemInteraction : MonoBehaviour, Interactable
     [SerializeField] private DialogueObject newDialogueObjectForNPC;
     [SerializeField] private DialogueObject playerThoughtsDialogueObject;
 
+
     private bool hasUpdatedNPCDialogue = false;
 
     public void Interact(Movement player)

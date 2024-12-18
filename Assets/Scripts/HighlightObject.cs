@@ -2,37 +2,38 @@ using UnityEngine;
 
 public class HighlightObject : MonoBehaviour
 {
-    private Color originalColor;         
-    private SpriteRenderer objectRenderer; 
-
-    [SerializeField] private Color highlightColor = Color.yellow;
+    private SpriteRenderer spriteRenderer; // Sprite Renderer bileþeni
+    private Material defaultMaterial;      // Varsayýlan materyal
+    public Material highlightMaterial;     // Outline shader'lý materyal
+    public float outlineScaleFactor = 0.01f; // Sprite boyutuna göre scale
 
     void Start()
     {
-        objectRenderer = GetComponent<SpriteRenderer>();
-        if (objectRenderer != null)
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (spriteRenderer != null)
         {
-            originalColor = objectRenderer.color;
-        }
-        else
-        {
-            Debug.LogWarning("Sprite Renderer bulunamadý! Nesnenin bir Sprite Renderer olduðundan emin ol.");
+            defaultMaterial = spriteRenderer.material;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && objectRenderer != null)
+        if (other.CompareTag("Player") && spriteRenderer != null && highlightMaterial != null)
         {
-            objectRenderer.color = highlightColor; 
+            spriteRenderer.material = highlightMaterial;
+
+            // Outline geniþliðini sprite boyutuna göre ayarla
+            float scale = outlineScaleFactor / transform.lossyScale.x;
+            spriteRenderer.material.SetFloat("_OutlineWidth", scale);
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && objectRenderer != null)
+        if (other.CompareTag("Player") && spriteRenderer != null)
         {
-            objectRenderer.color = originalColor; 
+            spriteRenderer.material = defaultMaterial;
         }
     }
 }

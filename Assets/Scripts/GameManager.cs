@@ -7,7 +7,10 @@ public class GameManager : MonoBehaviour
 
     private Dictionary<string, bool> itemInteractionStatus = new Dictionary<string, bool>();
     private Dictionary<string, DialogueObject> npcDialogues = new Dictionary<string, DialogueObject>();
-  
+
+    private HashSet<string> talkedToNPCs = new HashSet<string>();
+    private string[] allNPCIds = { "e1", "e3", "J"};
+
     private void Awake()
     {
         if (Instance == null)
@@ -48,4 +51,28 @@ public class GameManager : MonoBehaviour
     {
         return npcDialogues.ContainsKey(npcId) ? npcDialogues[npcId] : null;
     }
+
+
+
+    public void MarkNPCAsTalked(string npcId)
+    {
+        if (!talkedToNPCs.Contains(npcId))
+        {
+            talkedToNPCs.Add(npcId);
+            Debug.Log($"NPC {npcId} ile konuþuldu. Þu anda konuþulan NPC'ler: {string.Join(", ", talkedToNPCs)}");
+
+        }
+    }
+
+    public bool AllNPCsTalkedTo()
+    {
+        foreach (string npcId in allNPCIds)
+        {
+            if (!talkedToNPCs.Contains(npcId))
+                return false;
+        }
+        return true;
+    }
 }
+
+

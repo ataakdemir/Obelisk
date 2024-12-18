@@ -10,6 +10,8 @@ public class DialogueActivator : MonoBehaviour, Interactable
         // Get the current dialogue for the NPC from GameManager
         DialogueObject currentDialogueObject = GameManager.Instance.GetNPCDialogue(npcId) ?? initialDialogueObject;
         player.DialogueUI.ShowDialogue(currentDialogueObject);
+
+        GameManager.Instance.MarkNPCAsTalked(npcId);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -27,4 +29,5 @@ public class DialogueActivator : MonoBehaviour, Interactable
             other.GetComponent<Movement>().Interactable = null;
         }
     }
+
 }
