@@ -248,6 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18256084b85448c4992e0fd48adc9bba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 116131314}
+  typingSoundClip: {fileID: 8300000, guid: 3458eeb9e3ec4fd4c80fc42c4108c548, type: 3}
 --- !u!4 &116131316
 Transform:
   m_ObjectHideFlags: 0

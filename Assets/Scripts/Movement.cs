@@ -18,6 +18,9 @@ public class Movement : MonoBehaviour
 
     public GameObject decisionPanel;
     public GameObject emptyBoard;
+
+    public GameObject fullBoardIcon;
+    public GameObject emptyBoardIcon;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -46,6 +49,18 @@ public class Movement : MonoBehaviour
         {
             dialogueUI.CloseDialogueBox();
         }
+
+        if (GameManager.Instance.AllNPCsTalkedTo())
+        {
+            fullBoardIcon.SetActive(true);
+            emptyBoardIcon.SetActive(false);
+        }
+        else
+        {
+            fullBoardIcon.SetActive(false);
+            emptyBoardIcon.SetActive(true);
+        }
+
 
         if (Input.GetKeyDown(KeyCode.B) && !dialogueUI.isOpen)
         {
