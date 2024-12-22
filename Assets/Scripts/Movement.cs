@@ -11,6 +11,8 @@ public class Movement : MonoBehaviour
     public DialogueUI DialogueUI => dialogueUI;
     public Interactable Interactable { get; set; }
 
+    public NotesInteraction notesPanel;
+
     private Vector3 movementInput;
     private Animator animator;
 
@@ -26,7 +28,7 @@ public class Movement : MonoBehaviour
     {
         UpdateAnimator();
 
-        if (dialogueUI != null && dialogueUI.isOpen || decisionPanel.activeSelf)
+        if (dialogueUI != null && dialogueUI.isOpen || decisionPanel.activeSelf || (notesPanel != null && notesPanel.notlar.activeSelf))
         {
             speed = 0;
         }
@@ -67,6 +69,7 @@ public class Movement : MonoBehaviour
             decisionPanel.SetActive(false);
             emptyBoard.SetActive(false);
         }
+
     }
     void FixedUpdate()
     {

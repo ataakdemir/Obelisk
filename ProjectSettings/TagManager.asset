@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Interactable
+  - Not 1
   layers:
   - Default
   - TransparentFX
