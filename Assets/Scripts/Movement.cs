@@ -16,7 +16,7 @@ public class Movement : MonoBehaviour
     private Vector3 movementInput;
     private Animator animator;
 
-    public GameObject decisionPanel;
+    public GameObject fullBoard;
     public GameObject emptyBoard;
 
     public GameObject fullBoardIcon;
@@ -31,7 +31,7 @@ public class Movement : MonoBehaviour
     {
         UpdateAnimator();
 
-        if (dialogueUI != null && dialogueUI.isOpen || decisionPanel.activeSelf || (notesPanel != null && notesPanel.notlar.activeSelf))
+        if (dialogueUI != null && dialogueUI.isOpen || fullBoard.activeSelf || (notesPanel != null && notesPanel.notlar.activeSelf))
         {
             speed = 0;
         }
@@ -64,24 +64,24 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.B) && !dialogueUI.isOpen)
         {
-            if (!decisionPanel.activeSelf) // Panel kapal ysa
+            if (!fullBoard.activeSelf) // Panel kapal ysa
             {
                 if (GameManager.Instance.AllNPCsTalkedTo())
                 {
-                    decisionPanel.SetActive(true);
+                    fullBoard.SetActive(true);
                     emptyBoard.SetActive(false);
                 }
                 else
                 {
-                    decisionPanel.SetActive(true);
+                    fullBoard.SetActive(true);
                     emptyBoard.SetActive(true);
                 }
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && decisionPanel.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Escape) && fullBoard.activeSelf)
         {
-            decisionPanel.SetActive(false);
+            fullBoard.SetActive(false);
             emptyBoard.SetActive(false);
         }
 
