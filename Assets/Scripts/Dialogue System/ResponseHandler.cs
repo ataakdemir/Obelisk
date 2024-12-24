@@ -13,7 +13,6 @@ public class ResponseHandler : MonoBehaviour
     private DialogueUI dialogueUI;
 
     private List<GameObject> tempResponseButtons = new List<GameObject>();
-    private HashSet<int> selectedResponses = new HashSet<int>();
 
     private void Start()
     {
@@ -29,17 +28,9 @@ public class ResponseHandler : MonoBehaviour
             Response response = responses[i];
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
-
-            TMP_Text buttonText = responseButton.GetComponent<TMP_Text>();
-            buttonText.text = $"{i + 1}. {response.ResponseText}";
-
-            if (selectedResponses.Contains(i))
-            {
-                buttonText.color = Color.gray; 
-            }
-
+            responseButton.GetComponent<TMP_Text>().text = $"{i + 1}. {response.ResponseText}";
             int index = i;
-            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(responses[index], index));
+            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(responses[index]));
 
             tempResponseButtons.Add(responseButton);
 
@@ -60,7 +51,7 @@ public class ResponseHandler : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Alpha1 + i))
                 {
-                    OnPickedResponse(responses[i], i);
+                    OnPickedResponse(responses[i]);
                     yield break;
                 }
             }
@@ -68,19 +59,8 @@ public class ResponseHandler : MonoBehaviour
         }
     }
 
-    private void OnPickedResponse(Response response, int index)
+    private void OnPickedResponse(Response response)
     {
-        selectedResponses.Add(index);
-
-        foreach (GameObject button in tempResponseButtons)
-        {
-            TMP_Text buttonText = button.GetComponent<TMP_Text>();
-            if (buttonText.text.StartsWith($"{index + 1}."))
-            {
-                buttonText.color = Color.gray; 
-            }
-        }
-
         responseBox.gameObject.SetActive(false);
 
         foreach (GameObject button in tempResponseButtons)
