@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: boss_Q1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Odd: Hey boss.'
+  - 'Boss: Welcome detective I''m Willson Zefy owner of Zefy Zeppelins '
+  - 'Odd: Herman Odd pleasure to meet you. I have some questions.'
+  - 'Zefy: Happy to answer.'
+  responses:
+  - responseText: When was the last time you saw him?
+    dialogueObject: {fileID: 11400000, guid: 0baf4509ff42d89488beb99db5ee5eee, type: 2}
+  - responseText: Lately, is anything weird happened in factory?
+    dialogueObject: {fileID: 11400000, guid: 47ce41631b7d59746b24f48bb415b8a4, type: 2}
+  - responseText: Any guesses who might did it?
+    dialogueObject: {fileID: 11400000, guid: 6367397ca2dfb2b46a9def8c01d11f36, type: 2}

@@ -144,4 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcId: s
-  initialDialogueObject: {fileID: 0}
+  initialDialogueObject: {fileID: 11400000, guid: bae9e85875b8d3e45b09b205c0b2ea63, type: 2}

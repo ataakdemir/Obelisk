@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: e4_R2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Smith: He is a hard worker always in his room. I only know his name not more.'
+  responses:
+  - responseText: When was the last time you saw him?
+    dialogueObject: {fileID: 11400000, guid: 815a260ac16e4ea4b92c23d7510fbad2, type: 2}
+  - responseText: ' What are you thinking about Hindenburg?'
+    dialogueObject: {fileID: 11400000}
+  - responseText: Any idea how Hindenburg died?
+    dialogueObject: {fileID: 11400000, guid: 78f513a4b57a33d44a141e243077b349, type: 2}

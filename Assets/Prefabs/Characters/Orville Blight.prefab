@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcId: sm2
-  initialDialogueObject: {fileID: 0}
+  initialDialogueObject: {fileID: 11400000, guid: 377b4c6e7833fa74aaa48b1fcdf6b061, type: 2}
 --- !u!61 &8937918879723398642
 BoxCollider2D:
   m_ObjectHideFlags: 0

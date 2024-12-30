@@ -2,14 +2,13 @@ using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour, Interactable
 {
-    [SerializeField] private string npcId; 
+    [SerializeField] private string npcId;
     [SerializeField] private DialogueObject initialDialogueObject;
 
     public void Interact(Movement player)
     {
-        // Get the current dialogue for the NPC from GameManager
         DialogueObject currentDialogueObject = GameManager.Instance.GetNPCDialogue(npcId) ?? initialDialogueObject;
-        player.DialogueUI.ShowDialogue(currentDialogueObject);
+        player.DialogueUI.ShowDialogue(currentDialogueObject, npcId);
 
         GameManager.Instance.MarkNPCAsTalked(npcId);
     }
@@ -29,5 +28,4 @@ public class DialogueActivator : MonoBehaviour, Interactable
             other.GetComponent<Movement>().Interactable = null;
         }
     }
-
 }

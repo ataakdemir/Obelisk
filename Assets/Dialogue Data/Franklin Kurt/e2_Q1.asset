@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: e2_Q1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Odd: Hello sir!'
+  - 'Engineer: Oh! Welcome detective. I''m Kurt. Franklin Kurt. Please call me Franklin.'
+  - 'Odd: Detective Herman Odd. glad to know you.'
+  - 'Kurt: That pleasure is mine detective. You can ask me anything. I''ll tell anything
+    i know.'
+  responses:
+  - responseText: When was the last time you saw him?
+    dialogueObject: {fileID: 11400000, guid: b92fb9759e4298746a78b346eeaae88a, type: 2}
+  - responseText: Does he have any enemies?
+    dialogueObject: {fileID: 11400000, guid: 0bb8f97746c7a13439d2bcaf5eb70f16, type: 2}
+  - responseText: Could he have died by accident?
+    dialogueObject: {fileID: 11400000, guid: 3240c21a3f7a468498e4f47e4a945a4a, type: 2}

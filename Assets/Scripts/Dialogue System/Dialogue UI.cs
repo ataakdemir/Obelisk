@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -23,15 +24,15 @@ public class DialogueUI : MonoBehaviour
         CloseDialogueBox();
     }
 
-    public void ShowDialogue(DialogueObject dialogueObject, Action onDialogueComplete = null)
+    public void ShowDialogue(DialogueObject dialogueObject, string npcId, Action onDialogueComplete = null)
     {
         isOpen = true;
         dialogueBox.SetActive(true);
         this.onDialogueComplete = onDialogueComplete;
-        StartCoroutine(StepThroughDialogue(dialogueObject));
+        StartCoroutine(StepThroughDialogue(dialogueObject, npcId));
     }
 
-    private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
+    private IEnumerator StepThroughDialogue(DialogueObject dialogueObject, string npcId)
     {
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
@@ -49,7 +50,7 @@ public class DialogueUI : MonoBehaviour
 
         if (dialogueObject.hasResponses)
         {
-            responseHandler.ShowResponses(dialogueObject.Responses);
+            responseHandler.ShowResponses(dialogueObject.Responses, npcId);
         }
         else
         {
@@ -73,7 +74,12 @@ public class DialogueUI : MonoBehaviour
             }
         }
     }
-
+    public void ResetDialogue()
+    {
+        StopAllCoroutines(); 
+        CloseDialogueBox(); 
+        onDialogueComplete = null; 
+    }
     public void CloseDialogueBox()
     {
         isOpen = false;

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: sm1_R2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Willbur: No, I don''t.'
+  - 'Odd: When did you see him lastly?'
+  - 'Willbur: I don''t remember. He always see him in his room. He''s not much a
+    social type.'
+  responses:
+  - responseText: Was he a good worker?
+    dialogueObject: {fileID: 11400000, guid: 5c32f2e6bc2a5964d9213ba4b8b432ee, type: 2}
+  - responseText: Do you see anything weird at work yesterday?
+    dialogueObject: {fileID: 11400000}
+  - responseText: What was Hindenburg's job?
+    dialogueObject: {fileID: 11400000, guid: b9215b7faf8dfc64ea60b7aa5ed362eb, type: 2}

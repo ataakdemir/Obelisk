@@ -7,21 +7,37 @@ public class GameManager : MonoBehaviour
 
     private Dictionary<string, bool> itemInteractionStatus = new Dictionary<string, bool>();
     private Dictionary<string, DialogueObject> npcDialogues = new Dictionary<string, DialogueObject>();
-
     private HashSet<string> talkedToNPCs = new HashSet<string>();
-    private string[] allNPCIds = { "e1", "e3", "J"};
+    private string[] allNPCIds = { "e1", "e2", "e3", "e4", "j", "s", "sm1", "sm2" };
+
+    private Dictionary<string, HashSet<int>> npcSelectedResponses = new Dictionary<string, HashSet<int>>();
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); 
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject); 
+            Destroy(gameObject);
         }
+    }
+
+    public void AddSelectedResponse(string npcId, int responseIndex)
+    {
+        if (!npcSelectedResponses.ContainsKey(npcId))
+        {
+            npcSelectedResponses[npcId] = new HashSet<int>();
+        }
+
+        npcSelectedResponses[npcId].Add(responseIndex);
+    }
+
+    public bool IsResponseSelected(string npcId, int responseIndex)
+    {
+        return npcSelectedResponses.ContainsKey(npcId) && npcSelectedResponses[npcId].Contains(responseIndex);
     }
 
     public void SetItemInteracted(string itemId, bool interacted)
@@ -52,15 +68,12 @@ public class GameManager : MonoBehaviour
         return npcDialogues.ContainsKey(npcId) ? npcDialogues[npcId] : null;
     }
 
-
-
     public void MarkNPCAsTalked(string npcId)
     {
         if (!talkedToNPCs.Contains(npcId))
         {
             talkedToNPCs.Add(npcId);
             Debug.Log($"NPC {npcId} ile konuþuldu. Þu anda konuþulan NPC'ler: {string.Join(", ", talkedToNPCs)}");
-
         }
     }
 
@@ -74,5 +87,3 @@ public class GameManager : MonoBehaviour
         return true;
     }
 }
-
-

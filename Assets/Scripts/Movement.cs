@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private DialogueUI dialogueUI;
 
     public DialogueUI DialogueUI => dialogueUI;
+    public ResponseHandler responseHandler;
     public Interactable Interactable { get; set; }
 
     public NotesInteraction notesPanel;
@@ -48,6 +49,9 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && dialogueUI != null && dialogueUI.isOpen)
         {
             dialogueUI.CloseDialogueBox();
+            responseHandler.ResetResponseBox();
+            dialogueUI.ResetDialogue();
+
         }
 
         if (GameManager.Instance.AllNPCsTalkedTo())
@@ -64,7 +68,7 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.B) && !dialogueUI.isOpen)
         {
-            if (!fullBoard.activeSelf) // Panel kapal ysa
+            if (!fullBoard.activeSelf) 
             {
                 if (GameManager.Instance.AllNPCsTalkedTo())
                 {

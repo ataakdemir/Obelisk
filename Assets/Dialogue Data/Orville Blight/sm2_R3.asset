@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: sm2_R3
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Blight: We don''t have any strong security but we are a poor factory. I don''t
+    think any thief will chooses us. And we don''t have any enemies either.'
+  responses:
+  - responseText: What is your job here?
+    dialogueObject: {fileID: 11400000, guid: 52daac23ee8e7744b999e20b3804093a, type: 2}
+  - responseText: Anything weird happened lately around here?
+    dialogueObject: {fileID: 11400000, guid: 812577a875375384881fe7438ef11749, type: 2}
+  - responseText: Can someone enter the factory from outside?
+    dialogueObject: {fileID: 11400000}

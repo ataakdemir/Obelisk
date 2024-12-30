@@ -19,7 +19,7 @@ public class ResponseHandler : MonoBehaviour
         dialogueUI = GetComponent<DialogueUI>();
     }
 
-    public void ShowResponses(Response[] responses)
+    public void ShowResponses(Response[] responses, string npcId)
     {
         float responseBoxHeight = 0;
 
@@ -28,9 +28,17 @@ public class ResponseHandler : MonoBehaviour
             Response response = responses[i];
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
-            responseButton.GetComponent<TMP_Text>().text = $"{i + 1}. {response.ResponseText}";
+
+            TMP_Text buttonText = responseButton.GetComponent<TMP_Text>();
+            buttonText.text = $"{i + 1}. {response.ResponseText}";
+
+            if (GameManager.Instance.IsResponseSelected(npcId, i))
+            {
+                buttonText.color = Color.gray;
+            }
+
             int index = i;
-            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(responses[index]));
+            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(responses[index], index, npcId));
 
             tempResponseButtons.Add(responseButton);
 
@@ -40,10 +48,10 @@ public class ResponseHandler : MonoBehaviour
         responseBox.sizeDelta = new Vector2(responseBox.sizeDelta.x, responseBoxHeight);
         responseBox.gameObject.SetActive(true);
 
-        StartCoroutine(HandleKeyboardInput(responses));
+        StartCoroutine(HandleKeyboardInput(responses, npcId));
     }
 
-    private IEnumerator HandleKeyboardInput(Response[] responses)
+    private IEnumerator HandleKeyboardInput(Response[] responses, string npcId)
     {
         while (responseBox.gameObject.activeSelf)
         {
@@ -51,7 +59,7 @@ public class ResponseHandler : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Alpha1 + i))
                 {
-                    OnPickedResponse(responses[i]);
+                    OnPickedResponse(responses[i], i, npcId);
                     yield break;
                 }
             }
@@ -59,8 +67,19 @@ public class ResponseHandler : MonoBehaviour
         }
     }
 
-    private void OnPickedResponse(Response response)
+    private void OnPickedResponse(Response response, int index, string npcId)
     {
+        GameManager.Instance.AddSelectedResponse(npcId, index);
+
+        foreach (GameObject button in tempResponseButtons)
+        {
+            TMP_Text buttonText = button.GetComponent<TMP_Text>();
+            if (buttonText.text.StartsWith($"{index + 1}."))
+            {
+                buttonText.color = Color.gray;
+            }
+        }
+
         responseBox.gameObject.SetActive(false);
 
         foreach (GameObject button in tempResponseButtons)
@@ -70,6 +89,18 @@ public class ResponseHandler : MonoBehaviour
 
         tempResponseButtons.Clear();
 
-        dialogueUI.ShowDialogue(response.DialogueObject);
+        dialogueUI.ShowDialogue(response.DialogueObject, npcId);
+    }
+
+    public void ResetResponseBox()
+    {
+        responseBox.gameObject.SetActive(false);
+
+        foreach (GameObject button in tempResponseButtons)
+        {
+            Destroy(button);
+        }
+
+        tempResponseButtons.Clear();
     }
 }

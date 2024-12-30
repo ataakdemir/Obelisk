@@ -132,6 +132,12 @@ MonoBehaviour:
   speed: 5
   startingPos: {fileID: 11400000, guid: 5e6d094ce7b96564798ab421fab0db8b, type: 2}
   dialogueUI: {fileID: 0}
+  responseHandler: {fileID: 0}
+  notesPanel: {fileID: 0}
+  fullBoard: {fileID: 0}
+  emptyBoard: {fileID: 0}
+  fullBoardIcon: {fileID: 0}
+  emptyBoardIcon: {fileID: 0}
 --- !u!70 &4964153923167353631
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -164,8 +170,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2365815, y: 0.024089336}
-  m_Size: {x: 1.5977494, y: 3.277349}
+  m_Offset: {x: -0.33625853, y: 0.23026109}
+  m_Size: {x: 1.3983953, y: 2.7593727}
   m_Direction: 0
 --- !u!114 &1557450557746642631
 MonoBehaviour:

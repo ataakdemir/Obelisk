@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: j_R2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Trom: What kind of question is that? He is just a engineer. What kind of enemy
+    you expect? '
+  - 'Odd: Sorry hometown habits. I mean someone who hates him. '
+  - 'Trom: Loyd Wesley doesn''t like him much but i won''t say they are enemies. '
+  responses:
+  - responseText: 'When was the last time you saw him? '
+    dialogueObject: {fileID: 11400000, guid: db9553d465147844f9e43da2f3a557cb, type: 2}
+  - responseText: 'Does he have any enemies? '
+    dialogueObject: {fileID: 11400000}
+  - responseText: 'Could he have died by accident? '
+    dialogueObject: {fileID: 11400000, guid: 50a481200fac6ce408a749f3cf69bbb7, type: 2}

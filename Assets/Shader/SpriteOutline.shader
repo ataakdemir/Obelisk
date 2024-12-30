@@ -4,7 +4,7 @@ Shader "Custom/ImprovedSpriteOutline"
     {
         _MainTex("Sprite Texture", 2D) = "white" {}
         _OutlineColor("Outline Color", Color) = (0, 0, 0, 1)
-        _OutlineWidth("Outline Width", Float) = 0.01
+        _OutlineWidth("Outline Width", Float) = 0.005
     }
 
     SubShader
@@ -52,24 +52,33 @@ Shader "Custom/ImprovedSpriteOutline"
             {
                 float4 col = tex2D(_MainTex, i.uv);
 
-                // 8 yönlü piksel kontrolü
-                float alpha = col.a;
-                alpha += tex2D(_MainTex, i.uv + float2(_OutlineWidth, 0)).a;     // Sað
-                alpha += tex2D(_MainTex, i.uv - float2(_OutlineWidth, 0)).a;     // Sol
-                alpha += tex2D(_MainTex, i.uv + float2(0, _OutlineWidth)).a;     // Yukarý
-                alpha += tex2D(_MainTex, i.uv - float2(0, _OutlineWidth)).a;     // Aþaðý
-
-                alpha += tex2D(_MainTex, i.uv + float2(_OutlineWidth, _OutlineWidth)).a; // Sað üst
-                alpha += tex2D(_MainTex, i.uv + float2(_OutlineWidth, -_OutlineWidth)).a; // Sað alt
-                alpha += tex2D(_MainTex, i.uv - float2(_OutlineWidth, _OutlineWidth)).a; // Sol üst
-                alpha += tex2D(_MainTex, i.uv - float2(_OutlineWidth, -_OutlineWidth)).a; // Sol alt
-
-                // Eðer çevre pikseller alpha deðerine sahipse ve bu piksel þeffafsa, outline uygula
-                if (alpha > 0.0 && col.a == 0.0)
+                // Eðer sprite tamamen þeffafsa (alpha = 0)
+                if (col.a == 0.0)
                 {
-                    return _OutlineColor;
+                    float alpha = 0.0;
+
+                    // Çevredeki 8 pikseli kontrol et
+                    alpha += tex2D(_MainTex, i.uv + float2(-_OutlineWidth, 0)).a; // Sol
+                    alpha += tex2D(_MainTex, i.uv + float2(_OutlineWidth, 0)).a;  // Sað
+                    alpha += tex2D(_MainTex, i.uv + float2(0, _OutlineWidth)).a;  // Yukarý
+                    alpha += tex2D(_MainTex, i.uv + float2(0, -_OutlineWidth)).a; // Aþaðý
+
+                    alpha += tex2D(_MainTex, i.uv + float2(-_OutlineWidth, _OutlineWidth)).a;  // Sol Üst
+                    alpha += tex2D(_MainTex, i.uv + float2(_OutlineWidth, _OutlineWidth)).a;   // Sað Üst
+                    alpha += tex2D(_MainTex, i.uv + float2(-_OutlineWidth, -_OutlineWidth)).a; // Sol Alt
+                    alpha += tex2D(_MainTex, i.uv + float2(_OutlineWidth, -_OutlineWidth)).a;  // Sað Alt
+
+                    // Alpha threshold ekle
+                    alpha = saturate(alpha); // Alpha'yý 0-1 arasýnda tut
+
+                    // Eðer çevrede alpha varsa outline çiz
+                    if (alpha > 0.1)
+                    {
+                        return _OutlineColor;
+                    }
                 }
 
+                // Orijinal sprite rengi döndür
                 return col;
             }
             ENDCG

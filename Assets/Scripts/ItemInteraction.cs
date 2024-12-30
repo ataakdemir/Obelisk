@@ -2,22 +2,27 @@ using UnityEngine;
 
 public class ItemInteraction : MonoBehaviour, Interactable
 {
-    [SerializeField] private string itemId;
-    [SerializeField] private string npcId; 
-    [SerializeField] private DialogueObject newDialogueObjectForNPC;
-    [SerializeField] private DialogueObject playerThoughtsDialogueObject;
+    [SerializeField] private string itemId; // Bu etkileþimde kullanýlan item ID'si
+    [SerializeField] private string npcId; // Bu etkileþimin baðlý olduðu NPC'nin ID'si
+    [SerializeField] private DialogueObject newDialogueObjectForNPC; // NPC için güncellenmiþ diyalog
+    [SerializeField] private DialogueObject playerThoughtsDialogueObject; // Oyuncunun düþünce diyalogu
 
-
-    private bool hasUpdatedNPCDialogue = false;
+    private bool hasUpdatedNPCDialogue = false; // NPC diyaloglarý daha önce güncellenmiþ mi?
 
     public void Interact(Movement player)
     {
-        player.DialogueUI.ShowDialogue(playerThoughtsDialogueObject, () =>
+        // Oyuncunun düþünce diyalog kutusunu göster
+        player.DialogueUI.ShowDialogue(playerThoughtsDialogueObject, npcId, () =>
         {
             if (!hasUpdatedNPCDialogue)
             {
-                GameManager.Instance.SetItemInteracted(itemId, true); // Mark item as interacted
-                GameManager.Instance.UpdateNPCDialogue(npcId, newDialogueObjectForNPC); // Update NPC dialogue
+                // Etkileþim durumunu güncelle
+                GameManager.Instance.SetItemInteracted(itemId, true);
+
+                // Ýlgili NPC'nin diyaloglarýný güncelle
+                GameManager.Instance.UpdateNPCDialogue(npcId, newDialogueObjectForNPC);
+
+                // Güncellemenin yapýldýðýný iþaretle
                 hasUpdatedNPCDialogue = true;
             }
         });
@@ -25,17 +30,27 @@ public class ItemInteraction : MonoBehaviour, Interactable
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Eðer oyuncu bu alana girerse, onun "Interactable" alanýna bu objeyi ata
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<Movement>().Interactable = this;
+            var playerMovement = collision.GetComponent<Movement>();
+            if (playerMovement != null)
+            {
+                playerMovement.Interactable = this;
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        // Eðer oyuncu bu alandan çýkarsa, "Interactable" alanýný null yap
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<Movement>().Interactable = null;
+            var playerMovement = collision.GetComponent<Movement>();
+            if (playerMovement != null)
+            {
+                playerMovement.Interactable = null;
+            }
         }
     }
 }
