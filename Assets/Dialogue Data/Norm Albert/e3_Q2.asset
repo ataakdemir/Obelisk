@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: e3_Q2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Hey, professor!'
+  - 'Odd: Hello, Mister.'
   responses:
+  - responseText: My name is Herman.
+    dialogueObject: {fileID: 11400000, guid: 75008610e46dddc47b5ea538f8e549ce, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 7b19d710ca7d97e449d330dc061f641c, type: 2}
   - responseText: 'Does he have any enemies? '

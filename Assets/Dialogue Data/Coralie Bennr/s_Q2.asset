@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: s_Q2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Hey Miss.'
+  - 'Odd: Hey, Miss.'
   responses:
+  - responseText: Let me introduce myself..
+    dialogueObject: {fileID: 11400000, guid: d0965f0333446d34790826937f921a39, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 2c650214f40c65641b0a6c0d546b5abe, type: 2}
   - responseText: Does he have any enemies?

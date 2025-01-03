@@ -18,6 +18,8 @@ MonoBehaviour:
   - 'Odd: Sounds bad. '
   - 'Zefy: Tell me about it. Any little issue can blow up my factory.'
   responses:
+  - responseText: 'I came as fast as I could. '
+    dialogueObject: {fileID: 11400000, guid: 79aa4775750ab974aaa4a781ed2d9a61, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 0baf4509ff42d89488beb99db5ee5eee, type: 2}
   - responseText: Lately, is anything weird happened in factory?

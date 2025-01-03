@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: sm2_R0 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Odd: Hello Sir. I am Detective Odd.'
+  - 'Store Manager: I''m Blight nice to meet you sir.'
+  - 'Odd: I need to ask some questions'
+  - 'Blight: Sure'
+  responses:
+  - responseText: Got a minute?
+    dialogueObject: {fileID: 11400000}
+  - responseText: What is your job here?
+    dialogueObject: {fileID: 11400000, guid: 787b4e63ffbc97147ae344b0b4028b3f, type: 2}
+  - responseText: Anything weird happened lately around here?
+    dialogueObject: {fileID: 11400000, guid: 46a89daa32b76744db2ca5b607d204c9, type: 2}
+  - responseText: Can someone enter the factory from outside?
+    dialogueObject: {fileID: 11400000, guid: ba5839580c6729a47bbeb37ca5569769, type: 2}
+  - responseText: Why is there blood on that knife?
+    dialogueObject: {fileID: 11400000, guid: 66ae968a14f93c5478c4a61e219ccdb1, type: 2}

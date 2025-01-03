@@ -14,11 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Odd: Hello sir!'
-  - 'Engineer: Oh! Welcome detective. I''m Kurt. Franklin Kurt. Please call me Franklin.'
-  - 'Odd: Detective Herman Odd. glad to know you.'
-  - 'Kurt: That pleasure is mine detective. You can ask me anything. I''ll tell anything
-    i know.'
   responses:
+  - responseText: I am a detective.
+    dialogueObject: {fileID: 11400000, guid: 84700d44481097b4185aae9fe7869285, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: b92fb9759e4298746a78b346eeaae88a, type: 2}
   - responseText: Does he have any enemies?

@@ -15,9 +15,11 @@ MonoBehaviour:
   dialogue:
   - 'Smith: He is a hard worker always in his room. I only know his name not more.'
   responses:
+  - responseText: Hey, young man.
+    dialogueObject: {fileID: 11400000, guid: d33c4331ac9c04349998383b3894a597, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 815a260ac16e4ea4b92c23d7510fbad2, type: 2}
-  - responseText: ' What are you thinking about Hindenburg?'
+  - responseText: What are you thinking about Hindenburg?
     dialogueObject: {fileID: 11400000}
   - responseText: Any idea how Hindenburg died?
     dialogueObject: {fileID: 11400000, guid: 78f513a4b57a33d44a141e243077b349, type: 2}

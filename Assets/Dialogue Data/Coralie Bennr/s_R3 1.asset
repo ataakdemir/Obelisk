@@ -17,6 +17,8 @@ MonoBehaviour:
     He promised me that we would live together. He was not one to go back on his
     word. He-he-he... Someone killed him. Oh Zack.'
   responses:
+  - responseText: Let me introduce myself..
+    dialogueObject: {fileID: 11400000, guid: d0965f0333446d34790826937f921a39, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 2c650214f40c65641b0a6c0d546b5abe, type: 2}
   - responseText: Does he have any enemies?

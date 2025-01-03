@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: j_R0 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Janitor: I like to deserve my salary. '
+  - 'Odd: I thing you are. Can i ask some questions mister...?'
+  - 'Janitor: *Cough*. I am a smoker. Sorry about that'
+  - 'Janitor: Call me Trom detective. You can ask anything but i have some issues
+    remembering things.  '
+  responses:
+  - responseText: Cleanest factory i have ever seen.
+    dialogueObject: {fileID: 11400000}
+  - responseText: 'When was the last time you saw him? '
+    dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
+  - responseText: 'Does he have any enemies? '
+    dialogueObject: {fileID: 11400000, guid: 217d4dcc9d1efae4a837e3808c35f2d4, type: 2}
+  - responseText: 'Could he have died by accident? '
+    dialogueObject: {fileID: 11400000, guid: 95bd4af7a7e4b3241840f0a56521ae2e, type: 2}
+  - responseText: I guess this is yours? (pack of cigarette)
+    dialogueObject: {fileID: 11400000, guid: b5adbd42bc21d0f49b1eeecd2b28e7c7, type: 2}

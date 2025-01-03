@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|c:\\users\\ataak\\belgeler\\unity projects\\obelisk\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|c:\\users\\ataak\\belgeler\\unity projects\\obelisk\\assets\\scripts\\iteminteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iteminteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\dialogueactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\dialogueactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\dialogue ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\dialogue ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\thoughtbaloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thoughtbaloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\thoughtbaloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thoughtbaloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\dialogue ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\dialogue ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\iteminteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iteminteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\shader\\spriteoutline.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -62,7 +62,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ItemInteraction.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ItemInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemInteraction.cs",
@@ -81,46 +81,59 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAiwFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwFUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T21:22:59.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DialogueActivator.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
               "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAywB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T22:29:55.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dialogue UI.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
               "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAiwFkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T10:39:39.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
+              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAqwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T10:01:10.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ThoughtBaloon.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ThoughtBaloon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ThoughtBaloon.cs",
               "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ThoughtBaloon.cs",
               "RelativeToolTip": "Assets\\Scripts\\ThoughtBaloon.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwBMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T13:01:40.079Z",
               "EditorCaption": ""
@@ -151,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ResponseHandler.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\ResponseHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\ResponseHandler.cs",
@@ -159,19 +172,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\ResponseHandler.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAiwGoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T21:09:13.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Movement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAIwIwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T10:01:10.808Z",
+              "WhenOpened": "2024-12-22T21:09:13.177Z",
               "EditorCaption": ""
             },
             {

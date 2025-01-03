@@ -19,6 +19,8 @@ MonoBehaviour:
   - 'Wesley: I don''t know much but i think it''s about missing gas tubes or something.'
   - Odd He might have stolen some gas tubes... Why. I wonder.
   responses:
+  - responseText: Hi.
+    dialogueObject: {fileID: 11400000, guid: c63d59944c4d3c941b9cff2bb9a51972, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 90d655ec835beaa4e9c4ac26b9a11e74, type: 2}
   - responseText: Does he have any enemies?

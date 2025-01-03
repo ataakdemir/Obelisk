@@ -16,11 +16,13 @@ MonoBehaviour:
   - 'Trom: Maybe... I don''t know but someone died in this factory before. From a
     gas tank explosion. I mean this engineering stuff is looks dangerous to me. '
   responses:
+  - responseText: Cleanest factory i have ever seen.
+    dialogueObject: {fileID: 11400000, guid: 6a432a0c0640c9543aa06b47db2c904b, type: 2}
   - responseText: 'When was the last time you saw him? '
     dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
   - responseText: 'Does he have any enemies? '
     dialogueObject: {fileID: 11400000, guid: 217d4dcc9d1efae4a837e3808c35f2d4, type: 2}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000}
-  - responseText: I guess this is yours?
+  - responseText: I guess this is yours? (pack of cigarette)
     dialogueObject: {fileID: 11400000, guid: b5adbd42bc21d0f49b1eeecd2b28e7c7, type: 2}

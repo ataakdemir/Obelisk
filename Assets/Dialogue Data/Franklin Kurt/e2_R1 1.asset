@@ -21,6 +21,8 @@ MonoBehaviour:
   - 'Odd: Thanks.'
   - 'Kurt: Any time.'
   responses:
+  - responseText: I am a detective.
+    dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000}
   - responseText: Does he have any enemies?

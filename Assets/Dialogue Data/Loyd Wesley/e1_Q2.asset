@@ -14,18 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Odd: Hi.'
-  - 'Engineer: What? Just cut it short we have work to do.'
-  - 'Odd: Kinda nervous are we? I''m Detective Odd.'
-  - 'Engineer: You can call me Wesley.'
-  - 'Odd: Okey Mr. Wesley just one or two questions and we good.'
-  - 'Wesley: Yeah whatever.'
   responses:
+  - responseText: My name is Herman Odd.
+    dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
   - responseText: When was the last time you saw him?
-    dialogueObject: {fileID: 11400000, guid: 90d655ec835beaa4e9c4ac26b9a11e74, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 17804ab8a27c13c45b9e954057d59b70, type: 2}
   - responseText: Does he have any enemies?
-    dialogueObject: {fileID: 11400000, guid: 5f7dce49c42d30946afe08aa68bc5ffa, type: 2}
+    dialogueObject: {fileID: 11400000, guid: df256fa0d17f86949a71e86494d71e42, type: 2}
   - responseText: Could he have died by accident?
-    dialogueObject: {fileID: 11400000, guid: 62ae9e2f78e61e14d8f8b3715f7a63d1, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 9b058c7ead532e3429e3b504d251b54a, type: 2}
   - responseText: "There is cutting tool at the gas storage. In\u0131tal says it
       belongs to you"
     dialogueObject: {fileID: 11400000, guid: 2359fec08ec257549a533d2f971471ca, type: 2}

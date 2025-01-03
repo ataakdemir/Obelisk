@@ -19,6 +19,8 @@ MonoBehaviour:
   - 'Odd: No i mean strange.'
   - 'Albert: Oh no no i didn''t.'
   responses:
+  - responseText: My name is Herman.
+    dialogueObject: {fileID: 11400000, guid: 6d13f419c3469d44888a6a54946c518f, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000}
   - responseText: 'Does he have any enemies? '

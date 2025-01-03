@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: sm2_Q2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Mr. Blight, got a minute?'
+  - 'Odd: Hello, Sir.'
   responses:
+  - responseText: Got a minute?
+    dialogueObject: {fileID: 11400000, guid: 66ae968a14f93c5478c4a61e219ccdb1, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000, guid: 787b4e63ffbc97147ae344b0b4028b3f, type: 2}
   - responseText: Anything weird happened lately around here?

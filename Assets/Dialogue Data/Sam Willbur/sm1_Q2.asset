@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: sm1_Q2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Tell me, Sam.'
+  - 'Odd: Hi.'
   responses:
+  - responseText: I'm Detective Odd.
+    dialogueObject: {fileID: 11400000, guid: 9cd66f3733df1104c9b767f4df53f6cf, type: 2}
   - responseText: Was he a good worker?
     dialogueObject: {fileID: 11400000, guid: 0bf3d829db471b740ace51a40d0e850e, type: 2}
   - responseText: Do you see anything weird at work yesterday?

@@ -24,6 +24,8 @@ MonoBehaviour:
   - 'Odd: And Hindenburg was one of the Gas Guys, right?'
   - 'Blight: Obviously.'
   responses:
+  - responseText: Got a minute?
+    dialogueObject: {fileID: 11400000, guid: 4b8232ffb4208354a8f0bce0fbbf83ff, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000}
   - responseText: Anything weird happened lately around here?

@@ -20,6 +20,8 @@ MonoBehaviour:
     anything suspicious? '
   - 'Trom: I don''t think so. I don''t understand about science shit sorry. '
   responses:
+  - responseText: Cleanest factory i have ever seen.
+    dialogueObject: {fileID: 11400000, guid: cf9fbacfd60977a42903d3f6367bc98c, type: 2}
   - responseText: 'When was the last time you saw him? '
     dialogueObject: {fileID: 11400000}
   - responseText: 'Does he have any enemies? '

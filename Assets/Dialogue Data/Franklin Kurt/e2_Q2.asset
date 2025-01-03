@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: e2_Q2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Hello again, Mr. Kurt.'
+  - 'Odd: Hey!'
   responses:
+  - responseText: I am a detective.
+    dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
   - responseText: Does he have any enemies?

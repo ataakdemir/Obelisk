@@ -17,6 +17,8 @@ MonoBehaviour:
   - 'Kurt: New fuel that can help aircraft work more efficient. That is all I know.'
   - 'Odd: Thank You.  '
   responses:
+  - responseText: I am a detective.
+    dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
   - responseText: Does he have any enemies?

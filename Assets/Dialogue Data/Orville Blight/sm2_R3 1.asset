@@ -16,6 +16,8 @@ MonoBehaviour:
   - 'Blight: We don''t have any strong security but we are a poor factory. I don''t
     think any thief will chooses us. And we don''t have any enemies either.'
   responses:
+  - responseText: Got a minute?
+    dialogueObject: {fileID: 11400000, guid: 68f7d82ed4ac8c44b970840854fd5fbc, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000, guid: 787b4e63ffbc97147ae344b0b4028b3f, type: 2}
   - responseText: Anything weird happened lately around here?

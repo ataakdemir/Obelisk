@@ -17,6 +17,8 @@ MonoBehaviour:
   - 'Odd: Like what? '
   - 'Blight: Jerry tried cigarette for no reason. He was coughing like crazy.'
   responses:
+  - responseText: Got a minute?
+    dialogueObject: {fileID: 11400000, guid: 4b8232ffb4208354a8f0bce0fbbf83ff, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000, guid: 52daac23ee8e7744b999e20b3804093a, type: 2}
   - responseText: Anything weird happened lately around here?

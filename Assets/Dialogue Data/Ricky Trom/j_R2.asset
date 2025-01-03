@@ -18,6 +18,8 @@ MonoBehaviour:
   - 'Odd: Sorry hometown habits. I mean someone who hates him. '
   - 'Trom: Loyd Wesley doesn''t like him much but i won''t say they are enemies. '
   responses:
+  - responseText: Cleanest factory i have ever seen.
+    dialogueObject: {fileID: 11400000, guid: cf9fbacfd60977a42903d3f6367bc98c, type: 2}
   - responseText: 'When was the last time you saw him? '
     dialogueObject: {fileID: 11400000, guid: db9553d465147844f9e43da2f3a557cb, type: 2}
   - responseText: 'Does he have any enemies? '

@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: j_Q1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Cleanest factory i have ever seen. '
-  - 'Janitor: I like to deserve my salary. '
-  - 'Odd: I thing you are. Can i ask some questions mister...?'
-  - 'Janitor: *Cough*. I am a smoker. Sorry about that'
-  - 'Janitor: Call me Trom detective. You can ask anything but i have some issues
-    remembering things.  '
+  - 'Odd: Hi, sir.'
   responses:
+  - responseText: 'Odd: Cleanest factory i have ever seen. '
+    dialogueObject: {fileID: 11400000, guid: cf9fbacfd60977a42903d3f6367bc98c, type: 2}
   - responseText: 'When was the last time you saw him? '
     dialogueObject: {fileID: 11400000, guid: db9553d465147844f9e43da2f3a557cb, type: 2}
   - responseText: 'Does he have any enemies? '

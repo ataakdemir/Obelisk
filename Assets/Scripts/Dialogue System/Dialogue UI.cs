@@ -74,12 +74,20 @@ public class DialogueUI : MonoBehaviour
             }
         }
     }
+
     public void ResetDialogue()
     {
         StopAllCoroutines();
-        CloseDialogueBox();
-        onDialogueComplete = null;
+        CloseDialogueBox(); 
+
+        if (responseHandler != null)
+        {
+            responseHandler.ResetResponseBox(); 
+        }
+
+        onDialogueComplete = null; 
     }
+
     public void CloseDialogueBox()
     {
         isOpen = false;

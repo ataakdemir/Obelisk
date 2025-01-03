@@ -18,9 +18,11 @@ MonoBehaviour:
   - 'Odd: And you did with killing him?'
   - 'Willbur: Don''t be absurd. Even if I want, I don''t have time for that ahaha.'
   responses:
+  - responseText: I'm Detective Odd.
+    dialogueObject: {fileID: 11400000, guid: 4548cd0279e175f4187706d4c2e42e5f, type: 2}
   - responseText: Was he a good worker?
     dialogueObject: {fileID: 11400000}
   - responseText: Do you see anything weird at work yesterday?
     dialogueObject: {fileID: 11400000, guid: 44c2832ab90351c43ad96b6b8d3851b5, type: 2}
-  - responseText: ' What was Hindenburg''s job?'
+  - responseText: What was Hindenburg's job?
     dialogueObject: {fileID: 11400000, guid: b9215b7faf8dfc64ea60b7aa5ed362eb, type: 2}

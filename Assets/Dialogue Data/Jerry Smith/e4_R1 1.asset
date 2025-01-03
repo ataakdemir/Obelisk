@@ -17,9 +17,11 @@ MonoBehaviour:
   - 'Odd:  Any guess?'
   - 'Smith: Maybe at midday breaktime.'
   responses:
+  - responseText: Hey, young man.
+    dialogueObject: {fileID: 11400000, guid: 92928bd553916a84e97a837695823950, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000}
-  - responseText: ' What are you thinking about Hindenburg?'
+  - responseText: What are you thinking about Hindenburg?
     dialogueObject: {fileID: 11400000, guid: f15c0995982ea12458c2a9c6312587db, type: 2}
   - responseText: Any idea how Hindenburg died?
     dialogueObject: {fileID: 11400000, guid: 9536ceef71776f040a64b5cdd1e85574, type: 2}

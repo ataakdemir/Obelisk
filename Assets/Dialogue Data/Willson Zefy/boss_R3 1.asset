@@ -16,6 +16,8 @@ MonoBehaviour:
   - 'Zefy: How can i know. He never talks to anybody besides our scretary Coralie.
     They were very close.'
   responses:
+  - responseText: 'I came as fast as I could. '
+    dialogueObject: {fileID: 11400000, guid: 06ba0e4bcbb331a408a10d3528f73f3b, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: dc03c75ebf2c90b46b6da032423e3d14, type: 2}
   - responseText: Lately, is anything weird happened in factory?

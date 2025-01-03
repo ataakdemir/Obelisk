@@ -13,15 +13,10 @@ MonoBehaviour:
   m_Name: e3_Q1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Geezer.'
-  - 'Engineer: Oh sorry detective welcome.'
-  - 'Odd: You can call me Odd old man.'
-  - 'Engineer: I am Professor Norm Albert.'
-  - 'Odd: Did i heard this name before.'
-  - 'Albert: Anyone who has never made a mistake has never tried anything new.'
-  - 'Odd: Whatever i have some question.'
-  - 'Albert: Sure.'
+  - 'Odd: Hello, Mister.'
   responses:
+  - responseText: My name is Herman.
+    dialogueObject: {fileID: 11400000, guid: 6d13f419c3469d44888a6a54946c518f, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: afcf1b0455a189d48bc99938ab25a1d5, type: 2}
   - responseText: 'Does he have any enemies? '

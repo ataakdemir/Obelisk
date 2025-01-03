@@ -17,10 +17,12 @@ MonoBehaviour:
   - 'Odd: You sure about that?'
   - 'Wesley: I''m telling you man that idiot might have ending himself.'
   responses:
+  - responseText: Hi.
+    dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
   - responseText: When was the last time you saw him?
-    dialogueObject: {fileID: 11400000, guid: 90d655ec835beaa4e9c4ac26b9a11e74, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 17804ab8a27c13c45b9e954057d59b70, type: 2}
   - responseText: Does he have any enemies?
-    dialogueObject: {fileID: 11400000, guid: 5f7dce49c42d30946afe08aa68bc5ffa, type: 2}
+    dialogueObject: {fileID: 11400000, guid: df256fa0d17f86949a71e86494d71e42, type: 2}
   - responseText: Could he have died by accident?
     dialogueObject: {fileID: 11400000}
   - responseText: "There is cutting tool at the gas storage. In\u0131tal says it

@@ -18,6 +18,8 @@ MonoBehaviour:
   - 'Odd: Is anything weird about him?'
   - 'Zefy: I don''t know. He always was a closed box.'
   responses:
+  - responseText: 'I came as fast as I could. '
+    dialogueObject: {fileID: 11400000, guid: 06ba0e4bcbb331a408a10d3528f73f3b, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000}
   - responseText: Lately, is anything weird happened in factory?
