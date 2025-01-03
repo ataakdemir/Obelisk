@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: e3_R0 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Engineer: Oh sorry detective welcome.'
-  - 'Odd: You can call me Odd old man.'
-  - 'Engineer: I am Professor Norm Albert.'
-  - 'Odd: Did i heard this name before.'
-  - 'Albert: Anyone who has never made a mistake has never tried anything new.'
-  - 'Odd: Whatever i have some question.'
-  - 'Albert: Sure.'
+  - 'Odd: Detective Odd, and you?'
+  - 'Engineer: Albert. Nice knowing you detective.'
+  - 'Odd: Thanks. Why are you still working here by this age. You almost look like
+    you waking up from grave to come here.'
+  - 'Albert: I don''t have any family left to take care of me. I need to save some
+    money before my retirement. I fired from my old job cause my age.'
+  - 'Albert: It was much more safe there. I understand it''s value now. I should
+    have started saving earlier.'
   responses:
-  - responseText: My name is Herman.
+  - responseText: 'Let me introduce myself. '
     dialogueObject: {fileID: 11400000}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 7b19d710ca7d97e449d330dc061f641c, type: 2}
   - responseText: 'Does he have any enemies? '
     dialogueObject: {fileID: 11400000, guid: 24d660bc5f9bd2a4a878da49778ad966, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: What do you know about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5fb31c8081eeaac438016486122cba7c, type: 2}
   - responseText: I found medicine at the workshop gate
     dialogueObject: {fileID: 11400000, guid: 75008610e46dddc47b5ea538f8e549ce, type: 2}

@@ -577,8 +577,8 @@ GameObject:
   - component: {fileID: 248113504}
   - component: {fileID: 248113503}
   - component: {fileID: 248113505}
-  - component: {fileID: 248113507}
   - component: {fileID: 248113506}
+  - component: {fileID: 248113507}
   m_Layer: 0
   m_Name: coffee_machine
   m_TagString: Untagged
@@ -721,12 +721,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 248113502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4615e7405a0bb374fa962afb6e28279c, type: 3}
+  m_Script: {fileID: 11500000, guid: a3d840e0fbc522d41a5097155de96d70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: coffee
-  npcId: s
-  newDialogueObjectForNPC: {fileID: 11400000, guid: dadf02be36bf022409077b1580b7ce54, type: 2}
   playerThoughtsDialogueObject: {fileID: 11400000, guid: 853623a0999c9dd42b786178fa55cef8, type: 2}
 --- !u!1001 &250905368
 PrefabInstance:

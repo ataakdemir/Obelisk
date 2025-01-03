@@ -17,7 +17,7 @@ MonoBehaviour:
   - 'Odd: Did you see anything suspicious.'
   - 'Wesley: No i don''t think so.'
   responses:
-  - responseText: Hi.
+  - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000}

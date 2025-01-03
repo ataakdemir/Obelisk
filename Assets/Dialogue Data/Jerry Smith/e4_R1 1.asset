@@ -17,8 +17,8 @@ MonoBehaviour:
   - 'Odd:  Any guess?'
   - 'Smith: Maybe at midday breaktime.'
   responses:
-  - responseText: Hey, young man.
-    dialogueObject: {fileID: 11400000, guid: 92928bd553916a84e97a837695823950, type: 2}
+  - responseText: My name is Herman Odd.
+    dialogueObject: {fileID: 11400000, guid: 09f20addd8cf7204ea36e1da34d38659, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000}
   - responseText: What are you thinking about Hindenburg?

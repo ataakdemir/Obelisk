@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     private Dictionary<string, bool> itemInteractionStatus = new Dictionary<string, bool>();
     private Dictionary<string, DialogueObject> npcDialogues = new Dictionary<string, DialogueObject>();
     private HashSet<string> talkedToNPCs = new HashSet<string>();
-    private string[] allNPCIds = { "e1", "e2", "e3", "e4", "j", "s", "sm1", "sm2" };
+    private string[] allNPCIds = { "e1", "e2", "e3", "e4", "j", "s", "sm1", "sm2", "boss" };
 
     private Dictionary<string, HashSet<int>> npcSelectedResponses = new Dictionary<string, HashSet<int>>();
 

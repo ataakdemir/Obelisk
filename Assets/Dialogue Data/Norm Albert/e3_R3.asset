@@ -13,13 +13,17 @@ MonoBehaviour:
   m_Name: e3_R3
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Albert: That''s possible factory is dangerous place to work. '
+  - 'Albert: He was a nice guy. Always hardworking and thoughtful. He is not suitable
+    for this city. He was too pure for here.'
+  - 'Albert: I checked him before leave the factory yesterday. It was like 7 or 8pm.'
+  - 'Odd: Did you see anything odd.'
+  - 'Albert: No. I didn''t.'
   responses:
-  - responseText: My name is Herman.
+  - responseText: Let me introduce myself.
     dialogueObject: {fileID: 11400000, guid: 6d13f419c3469d44888a6a54946c518f, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: afcf1b0455a189d48bc99938ab25a1d5, type: 2}
   - responseText: 'Does he have any enemies? '
     dialogueObject: {fileID: 11400000, guid: 30b7503af328cf04fbc0d0e9f829f576, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: What do you know about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}

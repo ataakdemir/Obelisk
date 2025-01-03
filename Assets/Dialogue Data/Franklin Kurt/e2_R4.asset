@@ -17,13 +17,13 @@ MonoBehaviour:
   - 'Kurt: New fuel that can help aircraft work more efficient. That is all I know.'
   - 'Odd: Thank You.  '
   responses:
-  - responseText: I am a detective.
+  - responseText: Wanna introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000, guid: 4b0b4ae4072f1a0409ca023bce1f99d2, type: 2}
   - responseText: I found some calculation. Do you know anything about them?
     dialogueObject: {fileID: 11400000}

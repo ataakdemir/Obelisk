@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Smith: I-I.. I''m no... I didn''t.'
-  - 'Odd: '
+  - 'Odd: Ok, relax.'
   responses:
-  - responseText: Hey, young man.
+  - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: d33c4331ac9c04349998383b3894a597, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 5eba8c84b7898f946861bd40a5814c7c, type: 2}

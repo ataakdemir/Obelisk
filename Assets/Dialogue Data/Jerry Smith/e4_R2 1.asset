@@ -13,10 +13,15 @@ MonoBehaviour:
   m_Name: e4_R2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Smith: He is a hard worker always in his room. I only know his name not more.'
+  - 'Smith: I-It is terrifying. He was always in his room working. I don''t even
+    know about him other than his name.'
+  - 'Smith: B-but someone being mmm- murrrrdered is makes me wanna escape. I can''t!
+    I-I need to take care of my sisters.'
+  - 'Odd: I am feeling sorry for you young link.'
+  - 'Smith: Thank you.'
   responses:
-  - responseText: Hey, young man.
-    dialogueObject: {fileID: 11400000, guid: 92928bd553916a84e97a837695823950, type: 2}
+  - responseText: My name is Herman Odd.
+    dialogueObject: {fileID: 11400000, guid: 09f20addd8cf7204ea36e1da34d38659, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 5eba8c84b7898f946861bd40a5814c7c, type: 2}
   - responseText: What are you thinking about Hindenburg?

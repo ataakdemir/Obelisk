@@ -16,7 +16,7 @@ MonoBehaviour:
   - 'Smith: I.. I.. I don''t know. Sickness or something maybe? He wasn''t look good
     yesterday either.'
   responses:
-  - responseText: Hey, young man.
+  - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: d33c4331ac9c04349998383b3894a597, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 815a260ac16e4ea4b92c23d7510fbad2, type: 2}

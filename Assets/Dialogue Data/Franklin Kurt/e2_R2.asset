@@ -15,11 +15,11 @@ MonoBehaviour:
   dialogue:
   - 'Kurt: I don''t think so but he was not getting well with Loyd Wesley.'
   responses:
-  - responseText: I am a detective.
+  - responseText: Wanna introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 84700d44481097b4185aae9fe7869285, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: b92fb9759e4298746a78b346eeaae88a, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000}
-  - responseText: Could he have died by accident?
+  - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000, guid: 3240c21a3f7a468498e4f47e4a945a4a, type: 2}

@@ -19,11 +19,11 @@ MonoBehaviour:
   - 'Odd: No i mean strange.'
   - 'Albert: Oh no no i didn''t.'
   responses:
-  - responseText: My name is Herman.
+  - responseText: Let me introduce myself.
     dialogueObject: {fileID: 11400000, guid: 6d13f419c3469d44888a6a54946c518f, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000}
   - responseText: 'Does he have any enemies? '
     dialogueObject: {fileID: 11400000, guid: 30b7503af328cf04fbc0d0e9f829f576, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: What do you know about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0a14f2ec5ac0fb544be19cd4499d1b09, type: 2}

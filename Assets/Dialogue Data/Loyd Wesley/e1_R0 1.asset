@@ -19,7 +19,7 @@ MonoBehaviour:
   - 'Odd: Okey Mr. Wesley just one or two questions and we good.'
   - 'Wesley: Yeah whatever.'
   responses:
-  - responseText: Hi.
+  - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 17804ab8a27c13c45b9e954057d59b70, type: 2}

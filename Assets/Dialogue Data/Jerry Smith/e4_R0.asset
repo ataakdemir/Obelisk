@@ -13,17 +13,15 @@ MonoBehaviour:
   m_Name: e4_R0
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Hey young man.'
-  - 'Engineer: Ye- Yes.'
-  - 'Odd:  I''m detective Odd I''m here for Hindenburg.'
-  - 'Engineer: I didn''t do anything i swear!'
-  - 'Odd: Calm down i don''t blame your. What''s your name.'
-  - 'Engineer: Sorry i am very nervous about everything happened. I am Jerry sir.
-    Jerry Smith.'
-  - 'Odd: Okey Jerry just answer my questions.'
-  - 'Smith: O-Okey'
+  - 'Odd: What''s your name?'
+  - 'Engineer: Jerry Smith sir.'
+  - "Odd: Why are working here don\u2019t you have a school?"
+  - 'Smith: After my father got an accident at job. I took over making money.'
+  - "Odd: Isn\u2019t there a better job. Factories are dangerous for your age."
+  - "Smith: I am so lucky to even find a job. Also I have  sisters to take care.
+    I can\u2019t let them end up\_in\_Underground."
   responses:
-  - responseText: Hey, young man.
+  - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 815a260ac16e4ea4b92c23d7510fbad2, type: 2}

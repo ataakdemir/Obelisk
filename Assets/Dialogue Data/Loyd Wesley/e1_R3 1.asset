@@ -17,7 +17,7 @@ MonoBehaviour:
   - 'Odd: You sure about that?'
   - 'Wesley: I''m telling you man that idiot might have ending himself.'
   responses:
-  - responseText: Hi.
+  - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
   - responseText: When was the last time you saw him?
     dialogueObject: {fileID: 11400000, guid: 17804ab8a27c13c45b9e954057d59b70, type: 2}
