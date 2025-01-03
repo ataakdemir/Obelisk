@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: s_R1 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Bennr: Early afternoon. We were doing final checks with Mr. Wilbur.'
+  responses:
+  - responseText: When was the last time you saw him?
+    dialogueObject: {fileID: 11400000}
+  - responseText: Does he have any enemies?
+    dialogueObject: {fileID: 11400000, guid: a44a86aa6a08d94488e175527cd74b4f, type: 2}
+  - responseText: Could he have died by accident?
+    dialogueObject: {fileID: 11400000, guid: d33346489b9d83543be59f014b4274a4, type: 2}
+  - responseText: Since you were close, How did he like his coffee?
+    dialogueObject: {fileID: 11400000, guid: 992fee6624c3cde44beb2b80a41341c1, type: 2}

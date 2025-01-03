@@ -18,10 +18,10 @@ MonoBehaviour:
   - 'Zefy: I mixed up with another key. They all look same.'
   responses:
   - responseText: When was the last time you saw him?
-    dialogueObject: {fileID: 11400000, guid: 0baf4509ff42d89488beb99db5ee5eee, type: 2}
+    dialogueObject: {fileID: 11400000, guid: dc03c75ebf2c90b46b6da032423e3d14, type: 2}
   - responseText: Lately, is anything weird happened in factory?
-    dialogueObject: {fileID: 11400000, guid: 47ce41631b7d59746b24f48bb415b8a4, type: 2}
+    dialogueObject: {fileID: 11400000, guid: cd6ab9909c24fd74684ca6aaa33762d5, type: 2}
   - responseText: Any guesses who might did it?
-    dialogueObject: {fileID: 11400000}
+    dialogueObject: {fileID: 11400000, guid: 946a562201be1a0429dc1dc9e4ad0426, type: 2}
   - responseText: Where is the gas storage key?
     dialogueObject: {fileID: 11400000}

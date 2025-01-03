@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: e2_Q2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Odd: Hello again, Mr. Kurt.'
+  responses:
+  - responseText: When was the last time you saw him?
+    dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
+  - responseText: Does he have any enemies?
+    dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
+  - responseText: Could he have died by accident?
+    dialogueObject: {fileID: 11400000, guid: 4b0b4ae4072f1a0409ca023bce1f99d2, type: 2}
+  - responseText: I found some calculation. Do you know anything about them?
+    dialogueObject: {fileID: 11400000, guid: b3ddf843c0a506545986c892b25dd356, type: 2}

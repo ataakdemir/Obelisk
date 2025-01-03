@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: sm1_R1 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Willbur: He was a good worker but lately his efficiency is dropped. I even think
+    to replace him.'
+  - 'Odd: And you did with killing him?'
+  - 'Willbur: Don''t be absurd. Even if I want, I don''t have time for that ahaha.'
+  responses:
+  - responseText: Was he a good worker?
+    dialogueObject: {fileID: 11400000}
+  - responseText: Do you see anything weird at work yesterday?
+    dialogueObject: {fileID: 11400000, guid: ec060958150158d4489ba8eb1864f7eb, type: 2}
+  - responseText: What was Hindenburg's job?
+    dialogueObject: {fileID: 11400000, guid: 60be36e1b3ffb594fac225223be645e9, type: 2}
+  - responseText: Aren't these aircraft gases lethal?
+    dialogueObject: {fileID: 11400000, guid: 992158330d4d54c4aa31837bf8a35146, type: 2}

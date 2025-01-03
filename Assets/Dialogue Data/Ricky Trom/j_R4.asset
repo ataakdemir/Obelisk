@@ -18,10 +18,10 @@ MonoBehaviour:
   - 'Trom: No one but I saw Jerry smoking yesterday. It was odd Mr. Odd.'
   responses:
   - responseText: 'When was the last time you saw him? '
-    dialogueObject: {fileID: 11400000, guid: db9553d465147844f9e43da2f3a557cb, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
   - responseText: 'Does he have any enemies? '
-    dialogueObject: {fileID: 11400000, guid: 5fdedf54b27ada2478abe0a6a2df981e, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 217d4dcc9d1efae4a837e3808c35f2d4, type: 2}
   - responseText: 'Could he have died by accident? '
-    dialogueObject: {fileID: 11400000}
+    dialogueObject: {fileID: 11400000, guid: 95bd4af7a7e4b3241840f0a56521ae2e, type: 2}
   - responseText: I guess this is yours?
     dialogueObject: {fileID: 11400000}

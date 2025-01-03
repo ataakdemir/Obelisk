@@ -76,9 +76,9 @@ public class DialogueUI : MonoBehaviour
     }
     public void ResetDialogue()
     {
-        StopAllCoroutines(); 
-        CloseDialogueBox(); 
-        onDialogueComplete = null; 
+        StopAllCoroutines();
+        CloseDialogueBox();
+        onDialogueComplete = null;
     }
     public void CloseDialogueBox()
     {

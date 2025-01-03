@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: sm2_R1 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Blight: We produce parts for zeppelins. And we store parts here. My job is finding
+    customers and management. '
+  - 'Odd: How are the sales lately?'
+  - 'Blight: We are struggling at this department. Our Gas Guys make most part of
+    the profit.'
+  - 'Odd: Gas Guys?'
+  - 'Blight: We call people who works at the gas department. We don''t like ''em
+    here.'
+  - 'Odd: And Hindenburg was one of the Gas Guys, right?'
+  - 'Blight: Obviously.'
+  responses:
+  - responseText: What is your job here?
+    dialogueObject: {fileID: 11400000}
+  - responseText: Anything weird happened lately around here?
+    dialogueObject: {fileID: 11400000, guid: 46a89daa32b76744db2ca5b607d204c9, type: 2}
+  - responseText: Can someone enter the factory from outside?
+    dialogueObject: {fileID: 11400000, guid: ba5839580c6729a47bbeb37ca5569769, type: 2}
+  - responseText: Why is there blood on that knife?
+    dialogueObject: {fileID: 11400000, guid: 66ae968a14f93c5478c4a61e219ccdb1, type: 2}

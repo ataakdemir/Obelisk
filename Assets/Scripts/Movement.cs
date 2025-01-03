@@ -68,7 +68,7 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.B) && !dialogueUI.isOpen)
         {
-            if (!fullBoard.activeSelf) 
+            if (!fullBoard.activeSelf)
             {
                 if (GameManager.Instance.AllNPCsTalkedTo())
                 {

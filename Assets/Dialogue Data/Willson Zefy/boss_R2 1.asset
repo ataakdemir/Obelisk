@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1989fdd8e0fa54585ea15e82b867e0, type: 3}
+  m_Name: boss_R2 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Zefy: No, just like always. we only got money to pay our expenses. So hard working
+    is must.'
+  - 'Odd: Sounds bad. '
+  - 'Zefy: Tell me about it. Any little issue can blow up my factory.'
+  responses:
+  - responseText: When was the last time you saw him?
+    dialogueObject: {fileID: 11400000, guid: dc03c75ebf2c90b46b6da032423e3d14, type: 2}
+  - responseText: Lately, is anything weird happened in factory?
+    dialogueObject: {fileID: 11400000}
+  - responseText: Any guesses who might did it?
+    dialogueObject: {fileID: 11400000, guid: 946a562201be1a0429dc1dc9e4ad0426, type: 2}
+  - responseText: Where is the gas storage key?
+    dialogueObject: {fileID: 11400000, guid: 8d90e77144dc7aa4f86e66a8cceaa7ae, type: 2}
