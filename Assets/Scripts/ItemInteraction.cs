@@ -24,6 +24,9 @@ public class ItemInteraction : MonoBehaviour, Interactable
 
                 // Güncellemenin yapýldýðýný iþaretle
                 hasUpdatedNPCDialogue = true;
+
+                if (itemId == "cigarette")
+                    Destroy(gameObject);
             }
         });
     }
