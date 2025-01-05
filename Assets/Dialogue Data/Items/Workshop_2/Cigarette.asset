@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Cigarette
   m_EditorClassIdentifier: 
   dialogue:
-  - '"Dirtiest factory i ever seen. Almost full package of cigarette"'
-  - '"Yoink"'
+  - '"Dirtiest factory i ever seen... Almost full package of cigarette."'
+  - '"Yoink."'
   responses: []

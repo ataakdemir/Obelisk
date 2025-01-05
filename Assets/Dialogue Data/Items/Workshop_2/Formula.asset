@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Formula
   m_EditorClassIdentifier: 
   dialogue:
-  - '"There are formulas here"'
-  - '"I wonder, whose work are these"'
+  - '"Hey, formulas are here"'
+  - '"Let me talk with Franklin Kurt again"'
   responses: []

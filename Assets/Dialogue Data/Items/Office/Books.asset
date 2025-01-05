@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - '"Sherlock Holmes..."'
+  - '"Not as good as me."'
   responses: []

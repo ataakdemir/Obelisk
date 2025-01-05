@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - '"Someone dropped a key here"'
-  - '"Maybe I should ask this guy"'
+  - '"Maybe I should ask that guy"'
   responses: []

@@ -23,5 +23,5 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
   - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000}
-  - responseText: I found some calculation. Do you know anything about them?
+  - responseText: I found the calculations.
     dialogueObject: {fileID: 11400000, guid: b3ddf843c0a506545986c892b25dd356, type: 2}

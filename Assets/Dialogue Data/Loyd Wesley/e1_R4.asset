@@ -17,6 +17,7 @@ MonoBehaviour:
   - "Odd: It doesn\u2019t seem like a tool meant to be used in that storage. Why
     was it there?"
   - "Wesley: I lent it to Jerry, but he hasn\u2019t returned it"
+  - '"Who the hell is Jerry"'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}

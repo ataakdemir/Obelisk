@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: e2_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Kurt: These are Hindenburg''s handwriting. He was working on a different element.  '
   - 'Kurt: New fuel that can help aircraft work more efficient. That is all I know.'
-  - 'Odd: Thank You.  '
+  - 'Kurt: I didn''t know he was this close to the formula.'
+  - 'Kurt: He could have made fortune with this and change the future of Futown.   '
+  - 'Odd: Who could benefit from his death? '
+  - 'Kurt: Anybody who doesn''t want things to change probably.'
   responses:
   - responseText: Wanna introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
@@ -25,5 +27,5 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
   - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000, guid: 4b0b4ae4072f1a0409ca023bce1f99d2, type: 2}
-  - responseText: I found some calculation. Do you know anything about them?
+  - responseText: I found the calculations.
     dialogueObject: {fileID: 11400000}

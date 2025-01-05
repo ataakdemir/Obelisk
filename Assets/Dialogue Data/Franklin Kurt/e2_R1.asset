@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: e2_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Kurt: Like midday. He was asked my help for some calculations. I was updating
-    him.'
-  - 'Odd: Hmm what''s that calculations about.'
+  - 'Kurt: Like middle of yesterday. He was asked my help for some calculations.'
+  - 'Odd: What''s that calculations about.'
   - 'Kurt: It is about some new gas or something. Papers should be around here somewhere
     feel free to check detective.'
   - 'Odd: Thanks.'

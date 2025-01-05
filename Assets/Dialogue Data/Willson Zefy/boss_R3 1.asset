@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: boss_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Zefy: How can i know. He never talks to anybody besides our scretary Coralie.
-    They were very close.'
+  - 'Zefy: How can i know. He never talks to anybody besides Coralie. They were very
+    close.'
   responses:
   - responseText: 'I came as fast as I could. '
     dialogueObject: {fileID: 11400000, guid: 06ba0e4bcbb331a408a10d3528f73f3b, type: 2}

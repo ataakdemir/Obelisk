@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -22,6 +23,12 @@ public class Movement : MonoBehaviour
 
     public GameObject fullBoardIcon;
     public GameObject emptyBoardIcon;
+
+    public bool isGamePaused;
+    public GameObject pauseMenuUI;
+
+    public GameObject playIcon;
+    public GameObject pauseIcon;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -35,6 +42,7 @@ public class Movement : MonoBehaviour
         if (dialogueUI != null && dialogueUI.isOpen || fullBoard.activeSelf || (notesPanel != null && notesPanel.notlar.activeSelf))
         {
             speed = 0;
+            animator.SetFloat("Speed", 0);
         }
         else
         {
@@ -51,7 +59,18 @@ public class Movement : MonoBehaviour
             dialogueUI.CloseDialogueBox();
             responseHandler.ResetResponseBox();
             dialogueUI.ResetDialogue();
+        }
 
+        if (Input.GetKeyDown(KeyCode.P) && !dialogueUI.isOpen && !fullBoard.activeSelf && !emptyBoard.activeSelf)
+        {
+            if (isGamePaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
         }
 
         if (GameManager.Instance.AllNPCsTalkedTo())
@@ -132,10 +151,30 @@ public class Movement : MonoBehaviour
             }
         }
     }
-
     void UpdateAnimator()
     {
         float currentSpeed = movementInput.magnitude;
         animator.SetFloat("Speed", currentSpeed);
+    }
+    public void Resume()
+    {
+        pauseMenuUI.SetActive(false); 
+        isGamePaused = false;
+        Time.timeScale = 1f;
+        pauseIcon.SetActive(true);
+        playIcon.SetActive(false);
+    }
+    public void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        isGamePaused = true;
+        Time.timeScale = 0f;
+        playIcon.SetActive(true);
+        pauseIcon.SetActive(false);
+    }
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene("StartMenu"); 
     }
 }
