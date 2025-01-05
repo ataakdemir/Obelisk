@@ -26,9 +26,6 @@ public class Movement : MonoBehaviour
 
     public bool isGamePaused;
     public GameObject pauseMenuUI;
-
-    public GameObject playIcon;
-    public GameObject pauseIcon;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -54,14 +51,15 @@ public class Movement : MonoBehaviour
             Interactable?.Interact(this);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && dialogueUI != null && dialogueUI.isOpen)
+        if (Input.GetKeyDown(KeyCode.Escape) && dialogueUI != null && dialogueUI.isOpen && !isGamePaused)
         {
             dialogueUI.CloseDialogueBox();
             responseHandler.ResetResponseBox();
             dialogueUI.ResetDialogue();
+            return;
         }
 
-        if (Input.GetKeyDown(KeyCode.P) && !dialogueUI.isOpen && !fullBoard.activeSelf && !emptyBoard.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Escape) && !dialogueUI.isOpen && !fullBoard.activeSelf && !emptyBoard.activeSelf)
         {
             if (isGamePaused)
             {
@@ -161,16 +159,12 @@ public class Movement : MonoBehaviour
         pauseMenuUI.SetActive(false); 
         isGamePaused = false;
         Time.timeScale = 1f;
-        pauseIcon.SetActive(true);
-        playIcon.SetActive(false);
     }
     public void Pause()
     {
         pauseMenuUI.SetActive(true);
         isGamePaused = true;
         Time.timeScale = 0f;
-        playIcon.SetActive(true);
-        pauseIcon.SetActive(false);
     }
     public void LoadMainMenu()
     {
