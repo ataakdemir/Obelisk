@@ -13,17 +13,23 @@ MonoBehaviour:
   m_Name: s_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Bennr: He was genius. Of course it''s a murder. He was so careful even too careful.
-    He promised me that we would live together. He was not one to go back on his
-    word. He-he-he... Someone killed him. Oh Zack.'
+  - 'Bennr: Let me think... I was in his place yesterday. We went to factory together.
+    We drank some coffee together. He was in love with sugar.'
+  - 'Bennr: After that, boss and I prepared next weeks schedule. I worked at my desk
+    whole day. Other than inventory checks with both storage managers.'
+  - 'Bennr: Oh and at lunch break Zack came to my desk to talk. At the end of the
+    shift that means 6 pm. I went to home. Zack was going to stay for over shift.
+    That''s the whole day.'
+  - 'Odd: Did you notice anything weird about him?'
+  - 'Bennr: No. He was healthy and handsome like always.'
   responses:
   - responseText: Let me introduce myself..
     dialogueObject: {fileID: 11400000, guid: d0965f0333446d34790826937f921a39, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 2c650214f40c65641b0a6c0d546b5abe, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: a44a86aa6a08d94488e175527cd74b4f, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
   - responseText: Since you were close, How did he like his coffee?
     dialogueObject: {fileID: 11400000, guid: 992fee6624c3cde44beb2b80a41341c1, type: 2}

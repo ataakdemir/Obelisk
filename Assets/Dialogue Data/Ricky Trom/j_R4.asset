@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: j_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Trom: I don''t smoke this brand. My mop tastes better.'
-  - 'Odd: Who else is a smoker other than you?'
-  - 'Trom: No one but I saw Jerry smoking yesterday. It was odd Mr. Odd.'
+  - 'Trom: No. I don''t use that brand of cigarette. You have to be insane to smoke
+    this. This can make a drug effect on you. I tried once and I can''t get my head
+    together. Never again.'
+  - 'Odd: Thanks'
+  - 'Trom: You are welcome detective.'
   responses:
-  - responseText: Cleanest factory i have ever seen.
+  - responseText: Hi. I am detective Odd and you are....
     dialogueObject: {fileID: 11400000, guid: 6a432a0c0640c9543aa06b47db2c904b, type: 2}
-  - responseText: 'When was the last time you saw him? '
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 217d4dcc9d1efae4a837e3808c35f2d4, type: 2}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000, guid: 95bd4af7a7e4b3241840f0a56521ae2e, type: 2}
-  - responseText: I guess this is yours? (pack of cigarette)
+  - responseText: 'Pack of cigarette that is at the workshop is yours? '
     dialogueObject: {fileID: 11400000}

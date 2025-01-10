@@ -13,15 +13,26 @@ MonoBehaviour:
   m_Name: e3_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - Albert:I checked him before leave the factory it was like 7 or 8pm.
-  - 'Odd: Did you see anything odd?'
-  - 'Albert: Are you talking to yourself.'
-  - 'Odd: No i mean strange.'
-  - 'Albert: Oh no no i didn''t.'
+  - 'Albert: Of course. I got up, took my vitamins and dressed up. I went to factory.
+    Ate lunch with Mr. Blight. I started working. Boss called for weekly employee
+    check'
+  - 'Albert: I ate my second meal in lunch break with others. I saw Jerry smoking
+    that was strange. Anyway, eating well and taking vitamins prolongs your life.
+    I am healthier then all of them.'
+  - 'Albert: If you wanna live longer and better, you need to take care yourself.
+    I can see what you need. Let me recommend you something. You look like you need
+    to ea...'
+  - 'Odd: Hey hey, geezer. I am fine just continue telling the day. '
+  - 'Albert: Sorry. I work more and stay for over shift. I check Mr. Hindenburg before
+    leaving. It was 9:30pm.  He was looking very fine at the moment. '
+  - 'Albert: I tell him "I am leaving" and went home. And take my well earned 8 hours
+    sleep. You need to sleep at least 8 hours sleep a day if you want to li...'
+  - 'Odd: Okey geezer thanks for the information.'
+  - 'Albert: My pleasure.'
   responses:
   - responseText: Let me introduce myself.
     dialogueObject: {fileID: 11400000, guid: 6d13f419c3469d44888a6a54946c518f, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
   - responseText: 'Does he have any enemies? '
     dialogueObject: {fileID: 11400000, guid: 30b7503af328cf04fbc0d0e9f829f576, type: 2}

@@ -10,14 +10,6 @@ public class ItemInteraction : MonoBehaviour, Interactable
     private bool hasUpdatedNPCDialogue = false;
 
 
-    private void Start()
-    {
-        if (PlayerPrefs.GetInt(itemId, 0) == 1) 
-        {
-            Destroy(gameObject);
-        }
-    }
-
     public void Interact(Movement player)
     {
         player.DialogueUI.ShowDialogue(playerThoughtsDialogueObject, npcId, () =>
@@ -30,13 +22,6 @@ public class ItemInteraction : MonoBehaviour, Interactable
 
                 hasUpdatedNPCDialogue = true;
 
-                if (itemId == "cigarette")
-                {
-                    PlayerPrefs.SetInt(itemId, 1); 
-                    PlayerPrefs.Save();
-
-                    Destroy(gameObject);
-                }
             }
         });
     }

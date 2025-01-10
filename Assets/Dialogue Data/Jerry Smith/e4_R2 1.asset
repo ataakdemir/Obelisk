@@ -26,7 +26,7 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 5eba8c84b7898f946861bd40a5814c7c, type: 2}
   - responseText: What are you thinking about Hindenburg?
     dialogueObject: {fileID: 11400000}
-  - responseText: Any idea how Hindenburg died?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 9536ceef71776f040a64b5cdd1e85574, type: 2}
-  - responseText: Did you drop that key?
+  - responseText: That key over there. Did you drop that?
     dialogueObject: {fileID: 11400000, guid: c2f15d0f9a3573942a50b60bc64e8a1e, type: 2}

@@ -18,9 +18,9 @@ MonoBehaviour:
   responses:
   - responseText: 'I came as fast as I could. '
     dialogueObject: {fileID: 11400000, guid: 79aa4775750ab974aaa4a781ed2d9a61, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0baf4509ff42d89488beb99db5ee5eee, type: 2}
-  - responseText: Lately, is anything weird happened in factory?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 47ce41631b7d59746b24f48bb415b8a4, type: 2}
   - responseText: Any guesses who might did it?
     dialogueObject: {fileID: 11400000}

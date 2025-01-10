@@ -138,6 +138,8 @@ MonoBehaviour:
   emptyBoard: {fileID: 0}
   fullBoardIcon: {fileID: 0}
   emptyBoardIcon: {fileID: 0}
+  isGamePaused: 0
+  pauseMenuUI: {fileID: 0}
 --- !u!70 &4964153923167353631
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

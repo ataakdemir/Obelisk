@@ -18,11 +18,11 @@ MonoBehaviour:
     look like a very sharp guy what are you doing this garbage factory.'
   - "Kurt: I was planning to move out of the city. I\u2019ve already secured a job
     and will be starting there in a month. "
-  - "Kurt:I began working here because I don\u2019t have time to be a trainee."
+  - "Kurt: I began working here because I don\u2019t have time to be a trainee."
   responses:
   - responseText: Wanna introduce yourself?
     dialogueObject: {fileID: 11400000}
-  - responseText: When was the last time you saw him?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: b92fb9759e4298746a78b346eeaae88a, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 0bb8f97746c7a13439d2bcaf5eb70f16, type: 2}

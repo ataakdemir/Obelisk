@@ -13,21 +13,24 @@ MonoBehaviour:
   m_Name: sm1_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Willbur: He is responsible with gas quality.'
-  - 'Willbur: We are preparing gasses and sells them to zeppelin produce companies.'
-  - 'Willbur: Actually huge part of the company earns it money from this part.'
-  - 'Willbur: I have very important job: Find customers for us.'
-  - 'Willbur: In conclusion finish the interrogate so i can get to my job. '
-  - 'Odd: Cool down. You''ll burnout.'
-  - 'Willbur: "..".'
+  - 'Wilbur: I came to factory very late. We checked the gas storage inventory with
+    Coralie. I take care the factory for Zefy.'
+  - 'Odd: What did you do before coming to factory.'
+  - 'Wilbur: I had a meeting with a company. I made a deal with them to sell them
+    our gas tubes for a year. It was a good deal. I live across the city. All of
+    my time going to transport. '
+  - 'Willbur: I am using the zeppelin busses to travel and their stops is very much
+    terrible designed. As you know our city is built on the buildings.'
+  - 'Willbur: Very specific places has streets and zeppelin stops. So travel is very
+    strange here. I need to cross 2 building to came here from my zeppelin stop.'
   responses:
-  - responseText: I'm Detective Odd.
+  - responseText: 'I''m Detective Odd. I came for investigation. '
     dialogueObject: {fileID: 11400000, guid: 9cd66f3733df1104c9b767f4df53f6cf, type: 2}
-  - responseText: Was he a good worker?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0bf3d829db471b740ace51a40d0e850e, type: 2}
   - responseText: Do you see anything weird at work yesterday?
     dialogueObject: {fileID: 11400000, guid: ec060958150158d4489ba8eb1864f7eb, type: 2}
-  - responseText: What was Hindenburg's job?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
-  - responseText: Aren't these aircraft gases lethal?
+  - responseText: Why there is a hole in one of the gas tubes?
     dialogueObject: {fileID: 11400000, guid: 992158330d4d54c4aa31837bf8a35146, type: 2}

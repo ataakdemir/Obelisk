@@ -13,16 +13,18 @@ MonoBehaviour:
   m_Name: boss_R2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Zefy: No, just like always. we only got money to pay our expenses. So hard working
-    is must.'
-  - 'Odd: Sounds bad. '
-  - 'Zefy: Tell me about it. Any little issue can blow up my factory.'
+  - 'Zefy: I had my breakfast at factory. We prepared next weeks schedule with Carolie.
+    I talk with every engineer one by one. Checked their weekly progress.'
+  - 'Zefy: Everything was fine until that jerk Wesley started a fight with Hindenburg.
+    I kicked them out. And went to home. That''s whole day for me.'
+  - 'Odd: Did you see anything unusual.'
+  - 'Zefy: No that''s all.'
   responses:
   - responseText: 'I came as fast as I could. '
     dialogueObject: {fileID: 11400000, guid: 06ba0e4bcbb331a408a10d3528f73f3b, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: dc03c75ebf2c90b46b6da032423e3d14, type: 2}
-  - responseText: Lately, is anything weird happened in factory?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
   - responseText: Any guesses who might did it?
     dialogueObject: {fileID: 11400000, guid: 946a562201be1a0429dc1dc9e4ad0426, type: 2}

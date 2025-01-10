@@ -13,16 +13,18 @@ MonoBehaviour:
   m_Name: j_R2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Trom: What kind of question is that? He is just a engineer. What kind of enemy
-    you expect? '
-  - 'Odd: Sorry hometown habits. I mean someone who hates him. '
-  - 'Trom: Loyd Wesley doesn''t like him much but i won''t say they are enemies. '
+  - 'Trom: Yeah. I went to factory. Opened and started cleaning the entrance. Jerry
+    came late to factory. I went to my doctor appointment. It was a 2:30pm. After
+    i came back I cleaned remaining places and left. '
+  - 'Trom: Oh i remembered one thing. Hindenburg was looking for something and made
+    a mess in storage. We cleaned it up but we couldn''t find what he''s looking
+    for. '
   responses:
-  - responseText: Cleanest factory i have ever seen.
+  - responseText: Hi. I am detective Odd and you are....
     dialogueObject: {fileID: 11400000, guid: 6a432a0c0640c9543aa06b47db2c904b, type: 2}
-  - responseText: 'When was the last time you saw him? '
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000, guid: 95bd4af7a7e4b3241840f0a56521ae2e, type: 2}

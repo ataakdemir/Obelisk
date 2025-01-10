@@ -16,11 +16,11 @@ MonoBehaviour:
   - 'Trom: Maybe... I don''t know but someone died in this factory before. From a
     gas tank explosion. I mean this engineering stuff is looks dangerous to me. '
   responses:
-  - responseText: Cleanest factory i have ever seen.
+  - responseText: Hi. I am detective Odd and you are....
     dialogueObject: {fileID: 11400000, guid: 6a432a0c0640c9543aa06b47db2c904b, type: 2}
-  - responseText: 'When was the last time you saw him? '
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 217d4dcc9d1efae4a837e3808c35f2d4, type: 2}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000}

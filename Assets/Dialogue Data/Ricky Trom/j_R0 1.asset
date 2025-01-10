@@ -13,17 +13,18 @@ MonoBehaviour:
   m_Name: j_R0 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Janitor: I like to deserve my salary. '
-  - 'Odd: I thing you are. Can i ask some questions mister...?'
-  - 'Janitor: *Cough*. I am a smoker. Sorry about that'
-  - 'Janitor: Call me Trom detective. You can ask anything but i have some issues
-    remembering things.  '
+  - 'Janitor: Call me Trom sir.'
+  - 'Odd: Great cleaning. What''s your secret.'
+  - 'Trom: Years of experience. As fas as i remember I''m doing this job. *cough*
+    Sorry I''m a smoker. Anyway. I can find this kind of jobs easily. Normally. I
+    retired years ago but. After my son in law got fired back to ring.'
+  - 'Odd: Thank you, Mr. Clean.'
   responses:
-  - responseText: Cleanest factory i have ever seen.
+  - responseText: Hi. I am detective Odd and you are....
     dialogueObject: {fileID: 11400000}
-  - responseText: 'When was the last time you saw him? '
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 217d4dcc9d1efae4a837e3808c35f2d4, type: 2}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000, guid: 95bd4af7a7e4b3241840f0a56521ae2e, type: 2}

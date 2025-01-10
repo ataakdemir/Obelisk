@@ -17,11 +17,11 @@ MonoBehaviour:
   responses:
   - responseText: 'I came as fast as I could. '
     dialogueObject: {fileID: 11400000, guid: 06ba0e4bcbb331a408a10d3528f73f3b, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: dc03c75ebf2c90b46b6da032423e3d14, type: 2}
   - responseText: Lately, is anything weird happened in factory?
     dialogueObject: {fileID: 11400000, guid: cd6ab9909c24fd74684ca6aaa33762d5, type: 2}
-  - responseText: Any guesses who might did it?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 946a562201be1a0429dc1dc9e4ad0426, type: 2}
   - responseText: Where is the gas storage key?
     dialogueObject: {fileID: 11400000, guid: 8d90e77144dc7aa4f86e66a8cceaa7ae, type: 2}

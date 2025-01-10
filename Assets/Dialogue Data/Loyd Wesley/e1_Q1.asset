@@ -17,9 +17,9 @@ MonoBehaviour:
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: c63d59944c4d3c941b9cff2bb9a51972, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 90d655ec835beaa4e9c4ac26b9a11e74, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 5f7dce49c42d30946afe08aa68bc5ffa, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 62ae9e2f78e61e14d8f8b3715f7a63d1, type: 2}

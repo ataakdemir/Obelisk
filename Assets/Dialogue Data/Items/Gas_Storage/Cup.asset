@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Cup
   m_EditorClassIdentifier: 
   dialogue:
-  - '"It''s coffee but different; it looks like something has been mixed into it."'
-  - '"Maybe,  just a sugar. I can ask this to someone who was close to him."'
+  - '"It''s coffee but different; it smells weird."'
+  - '"Maybe he likes his coffee this way. I can ask this to someone who was close
+    to him."'
   responses: []

@@ -7,6 +7,14 @@ public class StartGame : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("Cutscene");
+        SceneManager.LoadScene("Cutscene1");
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
+    } 
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

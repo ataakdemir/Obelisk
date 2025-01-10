@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: e4_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Smith: I-I.. I''m no... I didn''t.'
-  - 'Odd: Ok, relax.'
+  - 'Smith: N-no. I don''t have any access to any key sir.'
+  - 'Odd: Are you sure there is no one here I don''t buy it kid.'
+  - 'Smith: O-okey okey. Yes, I dropped it. I was gonna give it to the boss. Sorry
+    i afraid to be a failure and lie about it.'
+  - 'Odd: How did you even acquire the key. '
+  - 'Smith: I found it at part storage. Probably Mr. Blight dropped it.'
+  - 'Odd: Okey kido.'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: d33c4331ac9c04349998383b3894a597, type: 2}
@@ -22,7 +27,7 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 5eba8c84b7898f946861bd40a5814c7c, type: 2}
   - responseText: What are you thinking about Hindenburg?
     dialogueObject: {fileID: 11400000, guid: f15c0995982ea12458c2a9c6312587db, type: 2}
-  - responseText: Any idea how Hindenburg died?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 9536ceef71776f040a64b5cdd1e85574, type: 2}
   - responseText: Did you drop that key?
     dialogueObject: {fileID: 11400000}

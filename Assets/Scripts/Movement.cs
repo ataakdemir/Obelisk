@@ -59,7 +59,7 @@ public class Movement : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !dialogueUI.isOpen && !fullBoard.activeSelf && !emptyBoard.activeSelf)
+        if (Input.GetKeyDown(KeyCode.Escape) && !dialogueUI.isOpen && !fullBoard.activeSelf && !emptyBoard.activeSelf && !notesPanel.notlar.activeSelf)
         {
             if (isGamePaused)
             {

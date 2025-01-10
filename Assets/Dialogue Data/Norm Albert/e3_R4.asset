@@ -13,12 +13,21 @@ MonoBehaviour:
   m_Name: e3_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: I assume it belongs to you.'
-  - 'Albert: Yes, it is mine. I thought i lost it yesterday. '
+  - 'Albert: Oh yeah it is very special. I had to talk a lot to convince my doctor
+    to give me a recipe for it. Boil a water and pour 2 spoonful. ''Et voila'' best
+    skin care in the world.'
+  - 'Odd: Let''s say someone drank this. What happens to him?'
+  - 'Albert: He will die in half a day. Probably. '
+  - 'Albert: At least my doctor say if you somehow accidently eat it that will happen.
+    He said you can confuse it with sugar so be careful.'
+  - 'Odd: Helpful information. Thanks'
+  - 'Albert: No worries. Don''t forget to take some vitamins. You look like you need
+    some.'
+  - 'Odd: I''ll think about it.'
   responses:
   - responseText: Let me introduce myself.
     dialogueObject: {fileID: 11400000, guid: 661d72866b36d3c40a8cb7d0c8f23d4b, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 7b19d710ca7d97e449d330dc061f641c, type: 2}
   - responseText: 'Does he have any enemies? '
     dialogueObject: {fileID: 11400000, guid: 24d660bc5f9bd2a4a878da49778ad966, type: 2}

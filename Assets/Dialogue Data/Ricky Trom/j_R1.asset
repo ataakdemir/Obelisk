@@ -13,19 +13,14 @@ MonoBehaviour:
   m_Name: j_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Trom: I don''t remember well but i saw him made a mess in gas storage and i
-    yelled him for it. I regret doing that now. That was our last conversation you
-    know. '
-  - 'Odd: I can totally understand sorry to hear that. Did you see anything more,
-    anything suspicious? '
-  - 'Trom: I don''t think so. I don''t understand about science sorry. '
-  - 'Trom: Too old for this stuff'
+  - 'Trom: I don''t know him much but he was a very kind guy. It is very sad we lose
+    him. He was looking fine yesterday. I wonder how it happened.'
   responses:
-  - responseText: Cleanest factory i have ever seen.
+  - responseText: Hi. I am detective Odd and you are....
     dialogueObject: {fileID: 11400000, guid: cf9fbacfd60977a42903d3f6367bc98c, type: 2}
-  - responseText: 'When was the last time you saw him? '
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 5fdedf54b27ada2478abe0a6a2df981e, type: 2}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000, guid: 50a481200fac6ce408a749f3cf69bbb7, type: 2}

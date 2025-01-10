@@ -13,15 +13,20 @@ MonoBehaviour:
   m_Name: sm2_R2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Blight: Everything is weird around here. I stopped questioning.'
-  - 'Odd: Like what? '
-  - 'Blight: Jerry tried cigarette for no reason. He was coughing like crazy.'
+  - 'Blight: Blight: I don''t know him a bit. But employee is employee. Gas guys
+    makes most part of the profit. We don''t like ''em here but losing him is worst
+    for me too.'
+  - 'Blight: If the factory dies. It is very hard to find job around here. I live
+    alone. I left my family after find a job. I can''t go back know. '
+  - Blight I don't even know where they are living now. I don't wanna end up in the
+    Underground. Maybe I should take care of the gas storage. I will talk about this
+    with boss.
   responses:
   - responseText: Got a minute?
     dialogueObject: {fileID: 11400000, guid: 4b8232ffb4208354a8f0bce0fbbf83ff, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000, guid: 52daac23ee8e7744b999e20b3804093a, type: 2}
-  - responseText: Anything weird happened lately around here?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}
-  - responseText: Can someone enter the factory from outside?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 999314deb24c3d2479d5bf9e23ac9716, type: 2}

@@ -21,7 +21,7 @@ MonoBehaviour:
   responses:
   - responseText: Let me introduce myself.
     dialogueObject: {fileID: 11400000, guid: 661d72866b36d3c40a8cb7d0c8f23d4b, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 7b19d710ca7d97e449d330dc061f641c, type: 2}
   - responseText: 'Does he have any enemies? '
     dialogueObject: {fileID: 11400000, guid: 24d660bc5f9bd2a4a878da49778ad966, type: 2}

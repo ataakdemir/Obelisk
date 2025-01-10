@@ -13,16 +13,19 @@ MonoBehaviour:
   m_Name: e2_R1 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Kurt: Like middle of yesterday. He was asked my help for some calculations.'
-  - 'Odd: What''s that calculations about.'
-  - 'Kurt: It is about some new gas or something. Papers should be around here somewhere
-    feel free to check detective.'
+  - 'Kurt: I am not good with remembering things but let me try. I went to work.
+    After some work I learn boss calling his pet Wesley to employee check.'
+  - 'Kurt:  So I went and chat with my boy Zack. It was usual small talk. And boss
+    called me for check too. At break time, I ate my lunch in zeppelin part storge
+    like others.'
+  - 'Kurt: I worked more and leave the factory when the shift ends. That was it.
+    Not much happened for me yesterday.'
   - 'Odd: Thanks.'
   - 'Kurt: Any time.'
   responses:
   - responseText: Wanna introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}

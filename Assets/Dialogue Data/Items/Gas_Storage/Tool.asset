@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Tool
   m_EditorClassIdentifier: 
   dialogue:
-  - '"This looks like cutting tool, it is very sharp."'
+  - '"This wrench was bent."'
   - '"It has ''L.W.'' written on it."'
   responses: []

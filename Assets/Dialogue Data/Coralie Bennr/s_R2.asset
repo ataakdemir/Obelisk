@@ -20,9 +20,9 @@ MonoBehaviour:
   responses:
   - responseText: Let me introduce myself..
     dialogueObject: {fileID: 11400000, guid: ffac88919a831bf43a26f4f077769a07, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 1078bdd2703e0ee428206e8af49f3d70, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000}
-  - responseText: Could he have died by accident?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: ab7dca1c0830d9d4e8dbf0baf66024ab, type: 2}

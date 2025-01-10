@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: e2_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Kurt: New fuel that can help aircraft work more efficient. That is all I know.'
-  - 'Kurt: I didn''t know he was this close to the formula.'
-  - 'Kurt: He could have made fortune with this and change the future of Futown.   '
-  - 'Odd: Who could benefit from his death? '
-  - 'Kurt: Anybody who doesn''t want things to change probably.'
+  - 'Kurt: Zack wanted me to help him for some calculations. He said "Two mind better
+    than one.'
+  - 'Kurt: We can''t make the same mistake at the same time right?" Hindenburg should
+    have one too. We were gonna talk about it today but...'
+  - 'Odd: Sorry mate.'
+  - 'Kurt: Thanks.'
   responses:
   - responseText: Wanna introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}

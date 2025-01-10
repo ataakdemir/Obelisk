@@ -13,15 +13,23 @@ MonoBehaviour:
   m_Name: boss_R0 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Boss: Welcome detective I''m Willson Zefy owner of Zefy Zeppelins '
-  - 'Odd: Herman Odd pleasure to meet you. I have some questions.'
-  - 'Zefy: Happy to answer.'
+  - 'Boss: Welcome detective. I am Willsan Zefy. Owner of the factory. '
+  - 'Odd: Hey boss. How''s the factory doing.'
+  - 'Zefy: We barely making out end of the month. Hard working is must.'
+  - 'Odd: Sounds bad. What about workers?'
+  - 'Zefy: We have to pay minimum wage every month. If you know this city. They will
+    have very fine life. But factory barely making that money.'
+  - 'Odd: What about you?'
+  - 'Zefy: I also get paid minimum wage like everybody. I need to take care of my
+    family too.'
+  - 'Odd: Good luck to you then.'
+  - 'Zefy: Thanks detective.'
   responses:
   - responseText: 'I came as fast as I could. '
     dialogueObject: {fileID: 11400000}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: dc03c75ebf2c90b46b6da032423e3d14, type: 2}
-  - responseText: Lately, is anything weird happened in factory?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: cd6ab9909c24fd74684ca6aaa33762d5, type: 2}
   - responseText: Any guesses who might did it?
     dialogueObject: {fileID: 11400000, guid: 946a562201be1a0429dc1dc9e4ad0426, type: 2}

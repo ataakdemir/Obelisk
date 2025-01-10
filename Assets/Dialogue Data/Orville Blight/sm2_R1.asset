@@ -28,7 +28,7 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 4b8232ffb4208354a8f0bce0fbbf83ff, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000}
-  - responseText: Anything weird happened lately around here?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 812577a875375384881fe7438ef11749, type: 2}
   - responseText: Can someone enter the factory from outside?
     dialogueObject: {fileID: 11400000, guid: 999314deb24c3d2479d5bf9e23ac9716, type: 2}

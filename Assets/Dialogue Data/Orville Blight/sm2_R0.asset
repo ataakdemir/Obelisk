@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Odd: Hello Sir. I am Detective Odd.'
-  - 'Store Manager: I''m Blight nice to meet you sir.'
-  - 'Odd: I need to ask some questions'
-  - 'Blight: Sure'
+  - 'Store Manager: Hi Detective I''m blight. I wanna get back to work, can we finish
+    this quick?'
+  - 'Odd: I am trying and If you help me. I can close the case faster.'
+  - 'Blight: Ask me anything then.'
   responses:
   - responseText: Got a minute?
     dialogueObject: {fileID: 11400000}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000, guid: 52daac23ee8e7744b999e20b3804093a, type: 2}
-  - responseText: Anything weird happened lately around here?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 812577a875375384881fe7438ef11749, type: 2}
-  - responseText: Can someone enter the factory from outside?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 999314deb24c3d2479d5bf9e23ac9716, type: 2}

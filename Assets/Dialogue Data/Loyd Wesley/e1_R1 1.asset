@@ -13,18 +13,20 @@ MonoBehaviour:
   m_Name: e1_R1 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Wesley: At end of my shift just before 6pm.'
-  - 'Odd: Did you see anything suspicious.'
-  - 'Wesley: No i don''t think so.'
+  - 'Wesley: He is very bad at his job. I don''t know boss loves him so much. I am
+    way better than him but no. He probably die from his own fault.'
+  - 'Wesley: Only i know how really dumb he is. He washed others mind with his sweet
+    talking snake tongue. He even took gas tube we''re about to throw. It was leaking.'
+  - 'Wesley: We are working with poisonous gasses. Dumbass ended himself. Case closed. '
+  - 'Odd: Thanks, I guess.'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: df256fa0d17f86949a71e86494d71e42, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 9b058c7ead532e3429e3b504d251b54a, type: 2}
-  - responseText: "There is cutting tool at the gas storage. In\u0131tal says it
-      belongs to you"
+  - responseText: That bent wrench at the gas storage is yours?
     dialogueObject: {fileID: 11400000, guid: 2359fec08ec257549a533d2f971471ca, type: 2}

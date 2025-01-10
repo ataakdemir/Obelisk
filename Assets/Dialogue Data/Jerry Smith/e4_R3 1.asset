@@ -13,8 +13,16 @@ MonoBehaviour:
   m_Name: e4_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Smith: I.. I.. I don''t know. Sickness or something maybe? He wasn''t look good
-    yesterday either.'
+  - 'Smith: Oh o-okey. I forgot to set the alarm. I was to late to work. Luckily
+    boss didn''t notice it. I immediately start working. After like a hour age boss
+    called me to his office.'
+  - 'Smith:  I was terrified he learn that I was late to work. But it was only a
+    weekly employee check. I ate lunch with  Mr. Wilbur, Kurt and Albert in part
+    storage. After that i leave the factory like everybody at 6pm.'
+  - 'Odd: Did you see anything unusual?'
+  - 'Smith: No, I was focused to my work. I need to work hard to end my intern and
+    get paid better. My sisters are hungry.'
+  - 'Odd: Thanks for help young man.'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 09f20addd8cf7204ea36e1da34d38659, type: 2}
@@ -22,7 +30,7 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 5eba8c84b7898f946861bd40a5814c7c, type: 2}
   - responseText: What are you thinking about Hindenburg?
     dialogueObject: {fileID: 11400000, guid: f15c0995982ea12458c2a9c6312587db, type: 2}
-  - responseText: Any idea how Hindenburg died?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
-  - responseText: Did you drop that key?
+  - responseText: That key over there. Did you drop that?
     dialogueObject: {fileID: 11400000, guid: c2f15d0f9a3573942a50b60bc64e8a1e, type: 2}

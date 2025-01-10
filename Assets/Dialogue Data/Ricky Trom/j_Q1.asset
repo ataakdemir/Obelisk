@@ -15,11 +15,11 @@ MonoBehaviour:
   dialogue:
   - 'Odd: Hi, sir.'
   responses:
-  - responseText: 'Odd: Cleanest factory i have ever seen. '
+  - responseText: Hi. I am detective Odd and you are....
     dialogueObject: {fileID: 11400000, guid: cf9fbacfd60977a42903d3f6367bc98c, type: 2}
-  - responseText: 'When was the last time you saw him? '
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: db9553d465147844f9e43da2f3a557cb, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 5fdedf54b27ada2478abe0a6a2df981e, type: 2}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000, guid: 50a481200fac6ce408a749f3cf69bbb7, type: 2}

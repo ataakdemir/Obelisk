@@ -13,18 +13,19 @@ MonoBehaviour:
   m_Name: e1_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Wesley: He was a moron. That''s my guess.'
-  - 'Odd: You sure about that?'
-  - 'Wesley: I''m telling you man that idiot might have ending himself.'
+  - 'Wesley: I had to work. I worked. I left. That''s it.'
+  - 'Odd: Can''t you be more specific? '
+  - 'Wesley: No, I can''t. That''s all.'
+  - 'Odd: You are not helping.'
+  - 'Wesley: Cause I don''t want to.'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
-  - responseText: When was the last time you saw him?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 17804ab8a27c13c45b9e954057d59b70, type: 2}
   - responseText: Does he have any enemies?
     dialogueObject: {fileID: 11400000, guid: df256fa0d17f86949a71e86494d71e42, type: 2}
-  - responseText: Could he have died by accident?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
-  - responseText: "There is cutting tool at the gas storage. In\u0131tal says it
-      belongs to you"
+  - responseText: That bent wrench at the gas storage is yours?
     dialogueObject: {fileID: 11400000, guid: 2359fec08ec257549a533d2f971471ca, type: 2}

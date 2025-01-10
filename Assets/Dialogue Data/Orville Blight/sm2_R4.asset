@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: sm2_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Blight: I open boxes and letters with it. I cut myself accidently.'
+  - 'Blight: I am using it to open boxes and letters. I cut myself accidently when
+    Ms. Bennr screamed when she found Hindenburg''s corpse. '
   responses:
   - responseText: Got a minute?
     dialogueObject: {fileID: 11400000, guid: 68f7d82ed4ac8c44b970840854fd5fbc, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000, guid: 787b4e63ffbc97147ae344b0b4028b3f, type: 2}
-  - responseText: Anything weird happened lately around here?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 46a89daa32b76744db2ca5b607d204c9, type: 2}
-  - responseText: Can someone enter the factory from outside?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: ba5839580c6729a47bbeb37ca5569769, type: 2}
   - responseText: Why is there blood on that knife?
     dialogueObject: {fileID: 11400000}

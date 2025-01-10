@@ -13,14 +13,22 @@ MonoBehaviour:
   m_Name: sm2_R3
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Blight: We don''t have any strong security but we are a poor factory. I don''t
-    think any thief will chooses us. And we don''t have any enemies either.'
+  - 'Blight: I came to work and ate my lunch with others. I leave the factory for
+    my meetings. Meeting was in the bottom floor. Being so close to Underground is
+    very terrifying.'
+  - 'Blight: Even i can''t focused to work. Starving workless dirty people noises.
+    Luckily our security take care of them. There is no more law in there. '
+  - 'Blight: We can shot them without a worry. I came to factory and checked the
+    inventory of the zeppelin part storage with our secretary and went back to home.'
+  - 'Blight: I can''t sleep for so long because of that terrifying underground people.
+    I fall a sleep so late because of that i can''t get up to go to factory for locking
+    it.'
   responses:
   - responseText: Got a minute?
     dialogueObject: {fileID: 11400000, guid: 4b8232ffb4208354a8f0bce0fbbf83ff, type: 2}
   - responseText: What is your job here?
     dialogueObject: {fileID: 11400000, guid: 52daac23ee8e7744b999e20b3804093a, type: 2}
-  - responseText: Anything weird happened lately around here?
+  - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 812577a875375384881fe7438ef11749, type: 2}
-  - responseText: Can someone enter the factory from outside?
+  - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GasLeak
   m_EditorClassIdentifier: 
   dialogue:
-  - '"This tube was drilled, aren''t these gases lethal?"'
+  - '"This tube has a hole, aren''t these gases lethal?"'
   - '"I should ask the guy who holding files about this"'
   responses: []
