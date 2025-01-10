@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|c:\\users\\ataak\\belgeler\\unity projects\\obelisk\\assets\\scripts\\startgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|c:\\users\\ataak\\belgeler\\unity projects\\obelisk\\assets\\scripts\\endingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|c:\\users\\ataak\\belgeler\\unity projects\\obelisk\\assets\\scripts\\buttonclicksound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonclicksound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\iteminteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iteminteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\startgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|c:\\users\\ataak\\belgeler\\unity projects\\obelisk\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\endingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\zeppelinmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,48 +35,8 @@
       "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\zeppelinspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\typewritereffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\typewritereffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\dialogueactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\dialogueactivator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\dialogue system\\dialogue ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue system\\dialogue ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\highlightobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\highlightobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\thoughtbaloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thoughtbaloon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\shader\\spriteoutline.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\shader\\spriteoutline.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\notesinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\notesinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E89957F-F1BE-553C-5593-44431FDAB832}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,11 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T10:06:44.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ButtonClickSound.cs",
+              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ButtonClickSound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonClickSound.cs",
+              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ButtonClickSound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonClickSound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T09:35:23.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EndingManager.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\EndingManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndingManager.cs",
@@ -90,25 +84,24 @@
               "RelativeToolTip": "Assets\\Scripts\\EndingManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T02:46:23.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T02:46:23.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StartGame.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\StartGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartGame.cs",
               "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\StartGame.cs",
               "RelativeToolTip": "Assets\\Scripts\\StartGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T21:33:24.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ZeppelinSpawner.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ZeppelinSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ZeppelinSpawner.cs",
@@ -120,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ZeppelinMove.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ZeppelinMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ZeppelinMove.cs",
@@ -132,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "HighlightObject.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\HighlightObject.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HighlightObject.cs",
@@ -144,51 +137,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ItemInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemInteraction.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ItemInteraction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemInteraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T22:44:19.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T21:22:59.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DialogueActivator.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\DialogueActivator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvx8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T22:29:55.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Dialogue UI.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\Dialogue UI.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T10:39:39.737Z"
+              "WhenOpened": "2024-12-22T21:22:59.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -198,94 +156,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
               "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAADwv6sAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAASwE0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T10:01:10.808Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ThoughtBaloon.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ThoughtBaloon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ThoughtBaloon.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\ThoughtBaloon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ThoughtBaloon.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T13:01:40.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SceneTransition.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\SceneTransition.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransition.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\SceneTransition.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneTransition.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T23:08:12.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TypewriterEffect.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\TypewriterEffect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\TypewriterEffect.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\TypewriterEffect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\TypewriterEffect.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAiwEoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T21:23:16.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResponseHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\ResponseHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue System\\ResponseHandler.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\Dialogue System\\ResponseHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialogue System\\ResponseHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T21:09:13.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SpriteOutline.shader",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Shader\\SpriteOutline.shader",
-              "RelativeDocumentMoniker": "Assets\\Shader\\SpriteOutline.shader",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Shader\\SpriteOutline.shader",
-              "RelativeToolTip": "Assets\\Shader\\SpriteOutline.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-12-28T19:22:24.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T20:50:08.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NotesInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\NotesInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NotesInteraction.cs",
-              "ToolTip": "C:\\Users\\ataak\\Belgeler\\Unity Projects\\Obelisk\\Assets\\Scripts\\NotesInteraction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NotesInteraction.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T00:00:52.22Z"
             }
           ]
         }

@@ -26,6 +26,10 @@ public class Movement : MonoBehaviour
 
     public bool isGamePaused;
     public GameObject pauseMenuUI;
+
+    public bool isWalking;
+
+    public AudioSource footStepSound;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -43,7 +47,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            speed = 5;
+            speed = 3.75f;
         }
 
         if (Input.GetKeyDown(KeyCode.E) && dialogueUI != null && !dialogueUI.isOpen)
@@ -112,6 +116,8 @@ public class Movement : MonoBehaviour
         movementInput = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical") * 0.8f, 0f);
         transform.position += movementInput.normalized * Time.fixedDeltaTime * speed;
 
+        isWalking = movementInput.magnitude > 0;
+
         if (movementInput.x < 0 && (dialogueUI == null || !dialogueUI.isOpen))
         {
             transform.localScale = new Vector3(1, 1, 1);
@@ -119,6 +125,15 @@ public class Movement : MonoBehaviour
         else if (movementInput.x > 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+        if (isWalking && !footStepSound.isPlaying)
+        {
+            footStepSound.Play();
+        }
+        else if (!isWalking && footStepSound.isPlaying)
+        {
+            footStepSound.Stop();
         }
     }
 

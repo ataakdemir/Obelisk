@@ -12,6 +12,10 @@ public class GameManager : MonoBehaviour
 
     private Dictionary<string, HashSet<int>> npcSelectedResponses = new Dictionary<string, HashSet<int>>();
 
+    private void Start()
+    {
+        ResetGame();
+    }
     private void Awake()
     {
         if (Instance == null)
@@ -86,4 +90,17 @@ public class GameManager : MonoBehaviour
         }
         return true;
     }
+
+    void ResetGame()
+    {
+            talkedToNPCs.Clear();
+
+            itemInteractionStatus.Clear();
+
+            npcDialogues.Clear();
+
+            npcSelectedResponses.Clear();
+
+        }
+
 }
