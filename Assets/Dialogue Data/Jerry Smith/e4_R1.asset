@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: e4_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Smith: He generally in the Gas Storage all day I don''t know.'
-  - 'Odd:  Any guess?'
-  - 'Smith: Maybe at midday breaktime.'
+  - "Smith: He\u2019s generally in the gas storage all day, but I don\u2019t really
+    know."
+  - 'Odd: Any guess?'
+  - 'Smith: Maybe during the midday break.'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: d33c4331ac9c04349998383b3894a597, type: 2}

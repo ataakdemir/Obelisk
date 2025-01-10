@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: e1_R2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Wesley: As i know he hasn''t. Maybe Wilbur. He was angry about something. That
-    was a disaster.'
-  - 'Odd: What kind of disaster we talking about? Little boy or fat man?'
+  - "Wesley: As far as I know, he hasn\u2019t. Maybe Wilbur. He was angry about something.
+    It was a disaster."
+  - 'Odd: What kind of a disaster are we talking about? Little Boy or Fat Man?'
   - 'Wesley: I don''t know much but i think it''s about missing gas tubes or something.'
-  - 'Odd: He might have stolen some gas tubes... Why. I wonder.'
+  - 'Odd: He might have stolen some gas tubes then... I wonder why...'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: c63d59944c4d3c941b9cff2bb9a51972, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 90d655ec835beaa4e9c4ac26b9a11e74, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 62ae9e2f78e61e14d8f8b3715f7a63d1, type: 2}

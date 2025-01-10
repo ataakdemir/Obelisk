@@ -13,19 +13,20 @@ MonoBehaviour:
   m_Name: e3_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Albert: He was a nice guy. Always hardworking and thoughtful. He is not suitable
-    for this city. He was too pure for here.'
-  - 'Albert: I checked him before leave the factory yesterday. It was like 7 or 8pm.'
-  - 'Odd: Did you see anything odd.'
+  - "Albert: He was a nice guy, always hardworking and thoughtful. He wasn\u2019t
+    suitable for this city; he was too pure for a place like this."
+  - 'Albert: I checked on him before leaving the factory yesterday. It was around
+    7 or 8 pm.'
+  - 'Odd: Did you see anything odd?'
   - 'Albert: No. I didn''t.'
   responses:
   - responseText: Let me introduce myself.
     dialogueObject: {fileID: 11400000, guid: 661d72866b36d3c40a8cb7d0c8f23d4b, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 7b19d710ca7d97e449d330dc061f641c, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 24d660bc5f9bd2a4a878da49778ad966, type: 2}
   - responseText: What do you know about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}
-  - responseText: I found medicine at the workshop gate
+  - responseText: I found some medicine at the workshop gate.
     dialogueObject: {fileID: 11400000, guid: 75008610e46dddc47b5ea538f8e549ce, type: 2}

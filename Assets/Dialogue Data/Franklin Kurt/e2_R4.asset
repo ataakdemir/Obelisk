@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: e2_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Kurt: Zack wanted me to help him for some calculations. He said "Two mind better
-    than one.'
-  - 'Kurt: We can''t make the same mistake at the same time right?" Hindenburg should
-    have one too. We were gonna talk about it today but...'
+  - 'Kurt: Zack wanted me to help him with some calculations about a certain material.
+    He said, ''Two minds are better than one.'
+  - "Kurt: We can\u2019t make the same mistake at the same time, right? Hindenburg
+    must have had one too. We were going to talk about it today, but..."
   - 'Odd: Sorry mate.'
   - 'Kurt: Thanks.'
   responses:
-  - responseText: Wanna introduce yourself?
+  - responseText: Can you introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
   - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000, guid: 4b0b4ae4072f1a0409ca023bce1f99d2, type: 2}

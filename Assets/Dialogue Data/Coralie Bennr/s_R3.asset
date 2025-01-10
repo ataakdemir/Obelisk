@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: s_R3
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Bennr: Let me think... I was in his place yesterday. We went to factory together.
-    We drank some coffee together. He was in love with sugar.'
-  - 'Bennr: After that, boss and I prepared next weeks schedule. I worked at my desk
-    whole day. Other than inventory checks with both storage managers.'
+  - 'Bennr: Let me think... I was at his place yesterday. We came to the factory
+    together. We drank a cup of coffee together. He loved sugary coffee so much,
+    it was more like coffee-flavored sugar.'
+  - 'Bennr: After that, boss and i prepared next week''s schedule. I worked at my
+    desk whole day, other than inventory checks with both storage managers.'
   - 'Bennr: Oh and at lunch break Zack came to my desk to talk. At the end of the
-    shift that means 6 pm. I went to home. Zack was going to stay for over shift.
-    That''s the whole day.'
+    shift, around 6 pm. I went home. Zack was going to stay for overtime. That''s
+    pretty much it.'
   - 'Odd: Did you notice anything weird about him?'
-  - 'Bennr: No. He was healthy and handsome like always.'
+  - 'Bennr: No, he was his usual handsome and healthy self, like always.'
   responses:
   - responseText: Let me introduce myself..
     dialogueObject: {fileID: 11400000, guid: ffac88919a831bf43a26f4f077769a07, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 1078bdd2703e0ee428206e8af49f3d70, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 96f2e2c50a35c414f8525523dc97d87d, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}

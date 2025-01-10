@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: sm1_R1 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Wilbur: He was a nice hard working guy. We use to be get along pretty good.
-    I will never forget him. He was responsible with gas quality. '
-  - 'Wilbur: We are preparing gasses and sells them to zeppelin produce companies
-    here. That means he is very important to our factory. I am upset but we need
-    to continue our job.'
-  - 'Willbur: I''m trying to pull myself together and find new employee to take care
-    of his job. '
+  - 'Wilbur: He was a nice, hard-working guy. We used to get along pretty well. I
+    will never forget him. He was responsible for the gas quality.'
+  - "Wilbur: We prepare gases and sell them to zeppelin production companies here.
+    That means he was very important to our factory. I\u2019m upset, but we need
+    to continue our work."
+  - "Willbur: I\u2019m trying to pull myself together and find a new employee to
+    take over his job."
   responses:
-  - responseText: 'I''m Detective Odd. I came for investigation. '
+  - responseText: "I\u2019m Detective Herman Odd. I\u2019m here for an investigation."
     dialogueObject: {fileID: 11400000, guid: 9cd66f3733df1104c9b767f4df53f6cf, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}
-  - responseText: Do you see anything weird at work yesterday?
+  - responseText: Did you see anything weird at work yesterday?
     dialogueObject: {fileID: 11400000, guid: ec060958150158d4489ba8eb1864f7eb, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 60be36e1b3ffb594fac225223be645e9, type: 2}
-  - responseText: Why there is a hole in one of the gas tubes?
+  - responseText: Why is there a hole in one of the gas tubes?
     dialogueObject: {fileID: 11400000, guid: 992158330d4d54c4aa31837bf8a35146, type: 2}

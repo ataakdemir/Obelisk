@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: j_R3
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Trom: Maybe... I don''t know but someone died in this factory before. From a
-    gas tank explosion. I mean this engineering stuff is looks dangerous to me. '
+  - "Trom: Maybe... I don\u2019t know, but someone died in this factory before, from
+    a gas tank explosion. I mean, this engineering stuff looks dangerous to me."
   responses:
-  - responseText: Hi. I am detective Odd and you are....
+  - responseText: "Hi, I\u2019m Detective Herman Odd, and you are...?"
     dialogueObject: {fileID: 11400000, guid: cf9fbacfd60977a42903d3f6367bc98c, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: db9553d465147844f9e43da2f3a557cb, type: 2}

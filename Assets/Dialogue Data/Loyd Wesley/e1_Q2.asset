@@ -19,10 +19,9 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 17804ab8a27c13c45b9e954057d59b70, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: df256fa0d17f86949a71e86494d71e42, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 9b058c7ead532e3429e3b504d251b54a, type: 2}
-  - responseText: "There is cutting tool at the gas storage. In\u0131tal says it
-      belongs to you"
+  - responseText: Is that bent wrench in the gas storage yours?
     dialogueObject: {fileID: 11400000, guid: 2359fec08ec257549a533d2f971471ca, type: 2}

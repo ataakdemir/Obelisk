@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: sm1_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Willbur: We are going to throw it away. Hindenburg wants it and take it.'
-  - 'Odd: Isn''t these gasses lethal?'
-  - 'Wilbur: Actually yeah. We are working with poisonous gasses. I never asked why
-    he wanted that tube and what is he going to do with it. But he was very smart.
-    I don''t think he filled it with gas.'
-  - 'Odd: Okey. Thanks.'
-  - 'Wilbur: Anytime. If you need me, I''ll be here.'
+  - 'Willbur: We were going to throw it away, but Hindenburg wanted it, so he kept
+    it.'
+  - "Odd: Aren\u2019t these gases lethal?"
+  - "Wilbur: Actually, yeah. We work with poisonous gases. I never asked why he wanted
+    that tube or what he was going to do with it. But he was very smart. I don\u2019t
+    think he filled it with gas."
+  - 'Odd: Okay. Thanks.'
+  - "Wilbur: Anytime. If you need me, I\u2019ll be here."
   responses:
-  - responseText: 'I''m Detective Odd. I came for investigation. '
+  - responseText: "I\u2019m Detective Herman Odd. I\u2019m here for an investigation."
     dialogueObject: {fileID: 11400000, guid: 9cd66f3733df1104c9b767f4df53f6cf, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0bf3d829db471b740ace51a40d0e850e, type: 2}
-  - responseText: Do you see anything weird at work yesterday?
+  - responseText: Did you see anything weird at work yesterday?
     dialogueObject: {fileID: 11400000, guid: ec060958150158d4489ba8eb1864f7eb, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 60be36e1b3ffb594fac225223be645e9, type: 2}
-  - responseText: Why there is a hole in one of the gas tubes?
+  - responseText: Why is there a hole in one of the gas tubes?
     dialogueObject: {fileID: 11400000}

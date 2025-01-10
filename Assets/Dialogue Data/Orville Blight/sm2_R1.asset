@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: sm2_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Blight: We produce parts for zeppelins. And we store parts here. My job is finding
-    customers and management. '
-  - 'Odd: How are the sales lately?'
-  - 'Blight: We are struggling at this department. Our Gas Guys make most part of
-    the profit.'
+  - 'Blight: We produce parts for zeppelins and store them here. My job is to find
+    customers and handle management.'
+  - 'Odd: How have the sales been lately?'
+  - "Blight: We\u2019re struggling in this department. Our Gas Guys make up most
+    of the profit."
   - 'Odd: Gas Guys?'
-  - 'Blight: We call people who works at the gas department. We don''t like ''em
-    here.'
+  - "Blight: I'ts what we call the people who work in the gas department. We don\u2019t
+    like them here."
   - 'Odd: And Hindenburg was one of the Gas Guys, right?'
   - 'Blight: Obviously.'
   responses:

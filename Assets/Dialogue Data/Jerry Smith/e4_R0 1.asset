@@ -15,11 +15,12 @@ MonoBehaviour:
   dialogue:
   - 'Odd: What''s your name?'
   - 'Engineer: Jerry Smith sir.'
-  - "Odd: Why are working here don\u2019t you have a school?"
-  - 'Smith: After my father got an accident at job. I took over making money.'
-  - "Odd: Isn\u2019t there a better job. Factories are dangerous for your age."
-  - "Smith: I am so lucky to even find a job. Also I have  sisters to take care.
-    I can\u2019t let them end up\_in\_Underground."
+  - "Odd: Why are you working here? Don\u2019t you have classes to attend?"
+  - 'Smith: After my father had an accident at his job, i took over earning money.'
+  - "Odd: Isn\u2019t there a better job? Factories are dangerous for someone your
+    age."
+  - "Smith: I\u2019m so lucky to have even found a job. I also have sisters to take
+    care of. I can\u2019t let them end up in the Underground."
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000}

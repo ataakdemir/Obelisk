@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: j_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Trom: No. I don''t use that brand of cigarette. You have to be insane to smoke
-    this. This can make a drug effect on you. I tried once and I can''t get my head
-    together. Never again.'
-  - 'Odd: Thanks'
-  - 'Trom: You are welcome detective.'
+  - "Trom: No, I don\u2019t use that brand of cigarette. You have to be insane to
+    smoke that. It can have a drug-like effect on you. I tried it once, and I couldn\u2019t
+    get my head together. Never again."
+  - 'Odd: Thanks for the info.'
+  - "Trom: You\u2019re welcome, detective."
   responses:
-  - responseText: Hi. I am detective Odd and you are....
+  - responseText: "Hi, I\u2019m Detective Herman Odd, and you are...?"
     dialogueObject: {fileID: 11400000, guid: 6a432a0c0640c9543aa06b47db2c904b, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
@@ -27,5 +27,5 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 217d4dcc9d1efae4a837e3808c35f2d4, type: 2}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000, guid: 95bd4af7a7e4b3241840f0a56521ae2e, type: 2}
-  - responseText: 'Pack of cigarette that is at the workshop is yours? '
+  - responseText: Is the pack of cigarettes at the workshop yours?
     dialogueObject: {fileID: 11400000}

@@ -19,9 +19,9 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 75008610e46dddc47b5ea538f8e549ce, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 7b19d710ca7d97e449d330dc061f641c, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 24d660bc5f9bd2a4a878da49778ad966, type: 2}
   - responseText: What do you know about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5fb31c8081eeaac438016486122cba7c, type: 2}
-  - responseText: I found medicine at the workshop gate
+  - responseText: I found some medicine at the workshop gate.
     dialogueObject: {fileID: 11400000, guid: 75008610e46dddc47b5ea538f8e549ce, type: 2}

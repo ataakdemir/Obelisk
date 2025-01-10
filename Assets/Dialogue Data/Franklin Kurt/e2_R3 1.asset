@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: e2_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Kurt: It is awful man. He was my only real friend here. He was the best.'
+  - "Kurt: It\u2019s just awful, man. He was my only real friend here\u2026 my one
+    true friend. He really was the best."
   responses:
-  - responseText: Wanna introduce yourself?
+  - responseText: Can you introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
   - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000}

@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: sm2_R2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Blight: Blight: I don''t know him a bit. But employee is employee. Gas guys
-    makes most part of the profit. We don''t like ''em here but losing him is worst
-    for me too.'
-  - 'Blight: If the factory dies. It is very hard to find job around here. I live
-    alone. I left my family after find a job. I can''t go back know. '
-  - Blight I don't even know where they are living now. I don't wanna end up in the
-    Underground. Maybe I should take care of the gas storage. I will talk about this
-    with boss.
+  - "Blight: I don\u2019t know him at all, but an employee is an employee. The Gas
+    Guys make up most of the profit. We don\u2019t like them here, but losing him
+    is the worst for me too."
+  - 'Blight: If the factory shuts down, it will be very hard to find a job around
+    here. I live alone. I left my family after finding a job. I can''t go back now.. '
+  - "Blight: \"I don\u2019t even know where they\u2019re living now. I don\u2019t
+    want to end up in the Underground. Maybe I should take care of the gas storage.
+    I\u2019ll talk to the boss about this."
   responses:
   - responseText: Got a minute?
     dialogueObject: {fileID: 11400000, guid: 68f7d82ed4ac8c44b970840854fd5fbc, type: 2}

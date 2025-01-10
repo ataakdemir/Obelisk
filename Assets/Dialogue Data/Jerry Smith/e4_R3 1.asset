@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: e4_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Smith: Oh o-okey. I forgot to set the alarm. I was to late to work. Luckily
-    boss didn''t notice it. I immediately start working. After like a hour age boss
-    called me to his office.'
-  - 'Smith:  I was terrified he learn that I was late to work. But it was only a
-    weekly employee check. I ate lunch with  Mr. Wilbur, Kurt and Albert in part
-    storage. After that i leave the factory like everybody at 6pm.'
+  - "Smith: Oh, o-okay. I forgot to set the alarm, so I was late to work. Luckily,
+    the boss didn\u2019t notice. I immediately started working. After about an hour,
+    the boss called me to his office."
+  - "Smith:  I was terrified he\u2019d find out that I was late to work. But it was
+    just a weekly employee check. I ate lunch with Mr. Wilbur, Kurt, and Albert in
+    the parts storage. After that, I left the factory like everyone else at 6 pm."
   - 'Odd: Did you see anything unusual?'
-  - 'Smith: No, I was focused to my work. I need to work hard to end my intern and
-    get paid better. My sisters are hungry.'
-  - 'Odd: Thanks for help young man.'
+  - 'Smith: No, I was focused on my work. I need to work hard to finish my internship
+    and get better pay. My sisters are hungry.'
+  - 'Odd: Thanks for the help young man.'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 09f20addd8cf7204ea36e1da34d38659, type: 2}

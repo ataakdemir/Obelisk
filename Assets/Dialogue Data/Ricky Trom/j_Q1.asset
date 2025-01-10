@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogue:
   - 'Odd: Hi, sir.'
   responses:
-  - responseText: Hi. I am detective Odd and you are....
+  - responseText: "Hi, I\u2019m Detective Herman Odd, and you are...?"
     dialogueObject: {fileID: 11400000, guid: cf9fbacfd60977a42903d3f6367bc98c, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: db9553d465147844f9e43da2f3a557cb, type: 2}

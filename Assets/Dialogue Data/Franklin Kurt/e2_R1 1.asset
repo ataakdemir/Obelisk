@@ -13,21 +13,22 @@ MonoBehaviour:
   m_Name: e2_R1 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Kurt: I am not good with remembering things but let me try. I went to work.
-    After some work I learn boss calling his pet Wesley to employee check.'
-  - 'Kurt:  So I went and chat with my boy Zack. It was usual small talk. And boss
-    called me for check too. At break time, I ate my lunch in zeppelin part storge
-    like others.'
-  - 'Kurt: I worked more and leave the factory when the shift ends. That was it.
-    Not much happened for me yesterday.'
+  - "Kurt: I\u2019m not good at remembering things, but let me try. I went to work.
+    After doing some tasks, I learned that the boss was calling his pet Wesley for
+    an employee check."
+  - 'Kurt: So I went and chatted with my boy Zack. It was the usual small talk. Then
+    the boss called me for a check too. During break time, I ate my lunch in the
+    zeppelin parts storage, like the others."'
+  - 'Kurt: I worked some more and left the factory when the shift ended. That was
+    it. Not much happened to me yesterday.'
   - 'Odd: Thanks.'
-  - 'Kurt: Any time.'
+  - 'Kurt: Anytime.'
   responses:
-  - responseText: Wanna introduce yourself?
+  - responseText: Can you introduce yourself?
     dialogueObject: {fileID: 11400000, guid: 3717342d1c93bf747ba9d5a0abfa579c, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
   - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000, guid: 4b0b4ae4072f1a0409ca023bce1f99d2, type: 2}

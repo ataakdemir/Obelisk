@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: j_R2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Trom: Yeah. I went to factory. Opened and started cleaning the entrance. Jerry
-    came late to factory. I went to my doctor appointment. It was a 2:30pm. After
-    i came back I cleaned remaining places and left. '
-  - 'Trom: Oh i remembered one thing. Hindenburg was looking for something and made
-    a mess in storage. We cleaned it up but we couldn''t find what he''s looking
-    for. '
+  - "Trom: Yeah, I went to the factory, opened up, and started cleaning the entrance.
+    Jerry came late to the factory. I went to my doctor\u2019s appointment at 2:30
+    pm. After I came back, I cleaned the remaining areas and then left."
+  - "Trom: Oh, I remembered one thing. Hindenburg was looking for something and made
+    a mess in the storage. We cleaned it up, but we couldn\u2019t find what he was
+    looking for."
   responses:
-  - responseText: Hi. I am detective Odd and you are....
+  - responseText: "Hi, I\u2019m Detective Herman Odd, and you are...?"
     dialogueObject: {fileID: 11400000, guid: 6a432a0c0640c9543aa06b47db2c904b, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 5012da9172b02d34dada76b727eecfa0, type: 2}
@@ -28,5 +28,5 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000}
   - responseText: 'Could he have died by accident? '
     dialogueObject: {fileID: 11400000, guid: 95bd4af7a7e4b3241840f0a56521ae2e, type: 2}
-  - responseText: I guess this is yours? (pack of cigarette)
+  - responseText: Is the pack of cigarettes at the workshop yours?
     dialogueObject: {fileID: 11400000, guid: b5adbd42bc21d0f49b1eeecd2b28e7c7, type: 2}

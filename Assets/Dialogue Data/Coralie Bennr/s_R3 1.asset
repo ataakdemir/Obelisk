@@ -13,23 +13,24 @@ MonoBehaviour:
   m_Name: s_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Bennr: Let me think... I was in his place yesterday. We went to factory together.
-    We drank some coffee together. He was in love with sugar.'
-  - 'Bennr: After that, boss and I prepared next weeks schedule. I worked at my desk
-    whole day. Other than inventory checks with both storage managers.'
+  - 'Bennr: Let me think... I was at his place yesterday. We came to the factory
+    together. We drank a cup of coffee together. He loved sugary coffee so much,
+    it was more like coffee-flavored sugar.'
+  - 'Bennr: After that, boss and i prepared next week''s schedule. I worked at my
+    desk whole day, other than inventory checks with both storage managers.'
   - 'Bennr: Oh and at lunch break Zack came to my desk to talk. At the end of the
-    shift that means 6 pm. I went to home. Zack was going to stay for over shift.
-    That''s the whole day.'
+    shift, around 6 pm. I went home. Zack was going to stay for overtime. That''s
+    pretty much it.'
   - 'Odd: Did you notice anything weird about him?'
-  - 'Bennr: No. He was healthy and handsome like always.'
+  - 'Bennr: No, he was his usual handsome and healthy self, like always.'
   responses:
   - responseText: Let me introduce myself..
     dialogueObject: {fileID: 11400000, guid: d0965f0333446d34790826937f921a39, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 2c650214f40c65641b0a6c0d546b5abe, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: a44a86aa6a08d94488e175527cd74b4f, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
-  - responseText: Since you were close, How did he like his coffee?
+  - responseText: Since you were close, do you know how he liked his coffee?
     dialogueObject: {fileID: 11400000, guid: 992fee6624c3cde44beb2b80a41341c1, type: 2}

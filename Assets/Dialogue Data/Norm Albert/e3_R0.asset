@@ -15,18 +15,18 @@ MonoBehaviour:
   dialogue:
   - 'Odd: Detective Odd, and you?'
   - 'Engineer: Albert. Nice knowing you detective.'
-  - 'Odd: Thanks. Why are you still working here by this age. You almost look like
-    you waking up from grave to come here.'
-  - 'Albert: I don''t have any family left to take care of me. I need to save some
-    money before my retirement. I fired from my old job cause my age.'
-  - 'Albert: It was much more safe there. I understand it''s value now. I should
-    have started saving earlier.'
+  - "Odd: Thanks. Why are you still working here at your age? You almost look like
+    you\u2019re waking up from the grave just to come here."
+  - "Albert: I don\u2019t have any family left to take care of me. I need to save
+    some money before I retire. I was fired from my old job because of my age."
+  - 'Albert: It was much safer there. I understand its value now. I should have started
+    saving earlier.'
   responses:
   - responseText: 'Let me introduce myself. '
     dialogueObject: {fileID: 11400000}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: afcf1b0455a189d48bc99938ab25a1d5, type: 2}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 30b7503af328cf04fbc0d0e9f829f576, type: 2}
   - responseText: What do you know about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0a14f2ec5ac0fb544be19cd4499d1b09, type: 2}

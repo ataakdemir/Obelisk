@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: e2_R0 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Engineer: My man! I''m Franklin Kurt. Let me guess and you are a detective.'
-  - 'Odd: Are you a detective too. My name is Detective Odd and I''m on duty. You
-    look like a very sharp guy what are you doing this garbage factory.'
-  - "Kurt: I was planning to move out of the city. I\u2019ve already secured a job
-    and will be starting there in a month. "
-  - "Kurt:I began working here because I don\u2019t have time to be a trainee."
+  - 'Engineer: My man! I''m Franklin Kurt. Let me guess, you are the detective.'
+  - 'Odd: Are you a detective too? I''m Detective Herman Odd and i''m on duty. You
+    look like a very sharp guy, what are you doing in this garbage factory?'
+  - "Kurt: I'm  planning to move out of the city. I\u2019ve already secured a job
+    and i'll start working there in a month. "
+  - "Kurt: I started working here because I don\u2019t have time to be a trainee."
   responses:
-  - responseText: Wanna introduce yourself?
+  - responseText: Can you introduce yourself?
     dialogueObject: {fileID: 11400000}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: ebef72988eb581c4a822399f3cc4f451, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 2de50f723131ae64fa274dfa62fbf8e6, type: 2}
   - responseText: 'What are you thinking about Hindenburg and his death? '
     dialogueObject: {fileID: 11400000, guid: 4b0b4ae4072f1a0409ca023bce1f99d2, type: 2}

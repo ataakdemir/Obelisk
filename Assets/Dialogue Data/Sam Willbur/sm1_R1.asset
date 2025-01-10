@@ -13,19 +13,19 @@ MonoBehaviour:
   m_Name: sm1_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Wilbur: He was a nice hard working guy. We use to be get along pretty good.
-    I will never forget him. He was responsible with gas quality. '
-  - 'Wilbur: We are preparing gasses and sells them to zeppelin produce companies
-    here. That means he is very important to our factory. I am upset but we need
-    to continue our job.'
-  - 'Willbur: I''m trying to pull myself together and find new employee to take care
-    of his job. '
+  - 'Wilbur: He was a nice, hard-working guy. We used to get along pretty well. I
+    will never forget him. He was responsible for the gas quality.'
+  - "Wilbur: We prepare gases and sell them to zeppelin production companies here.
+    That means he was very important to our factory. I\u2019m upset, but we need
+    to continue our work."
+  - "Willbur: I\u2019m trying to pull myself together and find a new employee to
+    take over his job."
   responses:
-  - responseText: 'I''m Detective Odd. I came for investigation. '
+  - responseText: "I\u2019m Detective Herman Odd. I\u2019m here for an investigation."
     dialogueObject: {fileID: 11400000, guid: 4548cd0279e175f4187706d4c2e42e5f, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}
-  - responseText: Do you see anything weird at work yesterday?
+  - responseText: Did you see anything weird at work yesterday?
     dialogueObject: {fileID: 11400000, guid: 44c2832ab90351c43ad96b6b8d3851b5, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: b9215b7faf8dfc64ea60b7aa5ed362eb, type: 2}

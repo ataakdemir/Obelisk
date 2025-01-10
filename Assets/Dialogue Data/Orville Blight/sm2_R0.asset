@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: sm2_R0
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: Hello Sir. I am Detective Odd.'
-  - 'Store Manager: Hi Detective I''m blight. I wanna get back to work, can we finish
-    this quick?'
-  - 'Odd: I am trying and If you help me. I can close the case faster.'
-  - 'Blight: Ask me anything then.'
+  - 'Odd: Hello Sir. I''m Detective Herman Odd.'
+  - "Store Manager: Hi, Detective. I\u2019m Blight. I\u2019d like to get back to
+    work, so can we wrap this up quickly?"
+  - "Odd: I\u2019m trying, and if you help me, I can close the case faster."
+  - 'Blight: Ask me anything, then.'
   responses:
   - responseText: Got a minute?
     dialogueObject: {fileID: 11400000}

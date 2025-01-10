@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: s_R0 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Odd: I am Mr. Odd. Your friendly neighbor detective. And you are...'
+  - 'Odd: I am Mr. Odd, your friendly neighborhood detective. And you are...?'
   - 'Secretary: ...'
   - 'Odd: Miss?'
-  - 'Bennr: Oh sorry. I lost in toughs . I am Coralie Bennr. You can call me Coralie
-    or Colie. '
-  - 'Odd: Why here? Can''t you find better job?'
+  - 'Secretary: Oh sorry. I got lost in toughts. I am Coralie Bennr. You can call
+    me Colie. '
+  - 'Odd: Colie, why are you here? Can''t you find a better job?'
   - 'Odd: I came from Underground actually.'
-  - 'Bennr: You should have very bad childhood then.'
-  - 'Bennr: My parents are teacher. Boss''s son is in my dads classroom. His son
-    was gonna fail the class. So they made a deal that my father not willingly accepted.'
-  - 'Bennr:  If he gave me a job in here. My dad will pass his child but only one
-    time. That means i am not permanent too. I can easily get fired.'
+  - 'Bennr: You must have had a very bad childhood then.'
+  - 'Bennr: My parents are both teachers. Boss''s son is in my dad''s classroom.
+    He was going to fail, so they made a deal my dad reluctantly accepted.'
+  - 'Bennr: If my dad passed his son just this once, Boss would give me a job here.
+    That means I''m not permanent and can be easily fired.'
   - 'Odd: Good luck then.'
   - 'Bennr: Thanks.'
   responses:
@@ -32,9 +32,9 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 2c650214f40c65641b0a6c0d546b5abe, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: a44a86aa6a08d94488e175527cd74b4f, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: d33346489b9d83543be59f014b4274a4, type: 2}
-  - responseText: Since you were close, How did he like his coffee?
+  - responseText: Since you were close, do you know how he liked his coffee?
     dialogueObject: {fileID: 11400000, guid: 992fee6624c3cde44beb2b80a41341c1, type: 2}

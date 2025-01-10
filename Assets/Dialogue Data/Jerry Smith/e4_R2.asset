@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: e4_R2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Smith: I-It is terrifying. He was always in his room working. I don''t even
-    know about him other than his name.'
-  - 'Smith: B-but someone being mmm- murrrrdered is makes me wanna escape. I can''t!
-    I-I need to take care of my sisters.'
-  - 'Odd: I am feeling sorry for you young link.'
-  - 'Smith: Thank you.'
+  - "Smith: I-It\u2019s terrifying. He was always in his room, working. I don\u2019t
+    even know anything about him other than his name"
+  - "Smith: B-But someone being m-m-murdered makes me want to escape. But I can\u2019t!
+    I-I need to take care of my sisters."
+  - 'Odd: I feel sorry for you, young one.'
+  - 'Smith: Thank you, I guess...'
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: d33c4331ac9c04349998383b3894a597, type: 2}

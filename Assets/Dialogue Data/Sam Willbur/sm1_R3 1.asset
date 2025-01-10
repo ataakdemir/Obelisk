@@ -13,24 +13,25 @@ MonoBehaviour:
   m_Name: sm1_R3 1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Wilbur: I came to factory very late. We checked the gas storage inventory with
-    Coralie. I take care the factory for Zefy.'
-  - 'Odd: What did you do before coming to factory.'
-  - 'Wilbur: I had a meeting with a company. I made a deal with them to sell them
-    our gas tubes for a year. It was a good deal. I live across the city. All of
-    my time going to transport. '
-  - 'Willbur: I am using the zeppelin busses to travel and their stops is very much
-    terrible designed. As you know our city is built on the buildings.'
-  - 'Willbur: Very specific places has streets and zeppelin stops. So travel is very
-    strange here. I need to cross 2 building to came here from my zeppelin stop.'
+  - 'Wilbur: I came to the factory very late. We checked the gas storage inventory
+    with Coralie. I take care of the factory for Zefy.'
+  - 'Odd: What did you do before coming to the factory?'
+  - 'Wilbur: I had a meeting with a company. I made a deal with them to sell our
+    gas tubes for a year. It was a good deal. I live across the city, so most of
+    my time goes into transportation.'
+  - 'Willbur: I use the zeppelin buses to travel, and their stops are terribly designed.
+    As you know, our city is built on top of buildings.'
+  - 'Willbur: Very specific places have streets and zeppelin stops, so travel is
+    very strange here. I need to cross two buildings to get here from my zeppelin
+    stop.'
   responses:
-  - responseText: 'I''m Detective Odd. I came for investigation. '
+  - responseText: "I\u2019m Detective Herman Odd. I\u2019m here for an investigation."
     dialogueObject: {fileID: 11400000, guid: 9cd66f3733df1104c9b767f4df53f6cf, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0bf3d829db471b740ace51a40d0e850e, type: 2}
-  - responseText: Do you see anything weird at work yesterday?
+  - responseText: Did you see anything weird at work yesterday?
     dialogueObject: {fileID: 11400000, guid: ec060958150158d4489ba8eb1864f7eb, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
-  - responseText: Why there is a hole in one of the gas tubes?
+  - responseText: Why is there a hole in one of the gas tubes?
     dialogueObject: {fileID: 11400000, guid: 992158330d4d54c4aa31837bf8a35146, type: 2}

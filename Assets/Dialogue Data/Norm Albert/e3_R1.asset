@@ -13,28 +13,29 @@ MonoBehaviour:
   m_Name: e3_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Albert: Of course. I got up, took my vitamins and dressed up. I went to factory.
-    Ate lunch with Mr. Blight. I started working. Boss called for weekly employee
-    check'
-  - 'Albert: I ate my second meal in lunch break with others. I saw Jerry smoking
-    that was strange. Anyway, eating well and taking vitamins prolongs your life.
-    I am healthier then all of them.'
-  - 'Albert: If you wanna live longer and better, you need to take care yourself.
-    I can see what you need. Let me recommend you something. You look like you need
-    to ea...'
-  - 'Odd: Hey hey, geezer. I am fine just continue telling the day. '
-  - 'Albert: Sorry. I work more and stay for over shift. I check Mr. Hindenburg before
-    leaving. It was 9:30pm.  He was looking very fine at the moment. '
-  - 'Albert: I tell him "I am leaving" and went home. And take my well earned 8 hours
-    sleep. You need to sleep at least 8 hours sleep a day if you want to li...'
-  - 'Odd: Okey geezer thanks for the information.'
+  - 'Albert: Of course. I got up, took my vitamins, and got dressed. I went to the
+    factory, had lunch with Mr. Blight, and then started working. The boss called
+    for the weekly employee check.'
+  - "Albert: I ate my second meal during the lunch break with the others. I saw Jerry
+    smoking, which was strange. Anyway, eating well and taking vitamins prolongs
+    your life. I\u2019m healthier than all of them.v"
+  - 'Albert: If you want to live longer and better, you need to take care of yourself.
+    I can see what you need. Let me recommend something. You look like you need to
+    ea...'
+  - "Odd: Hey, hey, geezer. I\u2019m fine, just keep telling me about your day."
+  - 'Albert: Sorry. I worked some more and stayed for overtime. Before leaving, I
+    checked on Mr. Hindenburg. It was 9:30 PM, and he seemed perfectly fine at the
+    time.'
+  - "Albert:I told him, 'I\u2019m leaving,' and then went home. I got my well-earned
+    8 hours of sleep. You need to sleep at least 8 hours a day if you want to li..."
+  - 'Odd: Okay, geezer. Thanks for the information.'
   - 'Albert: My pleasure.'
   responses:
   - responseText: Let me introduce myself.
     dialogueObject: {fileID: 11400000, guid: 6d13f419c3469d44888a6a54946c518f, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000}
-  - responseText: 'Does he have any enemies? '
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: 30b7503af328cf04fbc0d0e9f829f576, type: 2}
   - responseText: What do you know about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0a14f2ec5ac0fb544be19cd4499d1b09, type: 2}

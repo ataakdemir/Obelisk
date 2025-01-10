@@ -15,16 +15,16 @@ MonoBehaviour:
   dialogue:
   - 'Bennr: He was my love. I loved him so much. Whoever did this needs to pay big
     prices.'
-  - 'Bennr: I miss him so much already. Can we change the subject.'
-  - 'Odd: Yeah.'
+  - 'Bennr: I miss him so much already... Can we change the subject please.'
+  - 'Odd: Yeah, sorry.'
   responses:
   - responseText: Let me introduce myself..
     dialogueObject: {fileID: 11400000, guid: d0965f0333446d34790826937f921a39, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: a44a86aa6a08d94488e175527cd74b4f, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: d33346489b9d83543be59f014b4274a4, type: 2}
-  - responseText: Since you were close, How did he like his coffee?
+  - responseText: Since you were close, do you know how he liked his coffee?
     dialogueObject: {fileID: 11400000, guid: 992fee6624c3cde44beb2b80a41341c1, type: 2}

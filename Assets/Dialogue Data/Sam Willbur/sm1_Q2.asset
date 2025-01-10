@@ -15,13 +15,13 @@ MonoBehaviour:
   dialogue:
   - 'Odd: Hi.'
   responses:
-  - responseText: 'I''m Detective Odd. I came for investigation. '
+  - responseText: "I\u2019m Detective Herman Odd. I\u2019m here for an investigation."
     dialogueObject: {fileID: 11400000, guid: 9cd66f3733df1104c9b767f4df53f6cf, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 0bf3d829db471b740ace51a40d0e850e, type: 2}
-  - responseText: Do you see anything weird at work yesterday?
+  - responseText: Did you see anything weird at work yesterday?
     dialogueObject: {fileID: 11400000, guid: ec060958150158d4489ba8eb1864f7eb, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 60be36e1b3ffb594fac225223be645e9, type: 2}
-  - responseText: Why there is a hole in one of the gas tubes?
+  - responseText: Why is there a hole in one of the gas tubes?
     dialogueObject: {fileID: 11400000, guid: 992158330d4d54c4aa31837bf8a35146, type: 2}

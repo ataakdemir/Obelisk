@@ -15,19 +15,19 @@ MonoBehaviour:
   dialogue:
   - 'Wesley: Yeah. Why?'
   - 'Odd: How did it get bent?'
-  - 'Wesley: Did you blaming me with murder?'
+  - 'Wesley: Are you blaming me for murder?'
   - 'Odd: Maybe. You are being very aggressive for no reason.'
-  - 'Wesley: I raised by a abusive, drunk mother. That''s who i am. And Sherdumb,
-    factory means heavy work. I kicked it while tightening the valve. That''s how
-    it happened. '
+  - "Wesley: I was raised by an abusive, drunk mother. That\u2019s who I am. And
+    listen, Sherdumb, the factory means heavy work. I kicked it while tightening
+    the valve. That\u2019s how it happened."
   responses:
   - responseText: My name is Herman Odd.
     dialogueObject: {fileID: 11400000, guid: 6589bfe5b652f5a41b8e6dcf470e9d7b, type: 2}
   - responseText: What are you thinking about Hindenburg and his death?
     dialogueObject: {fileID: 11400000, guid: 17804ab8a27c13c45b9e954057d59b70, type: 2}
-  - responseText: Does he have any enemies?
+  - responseText: Did he have any enemies?
     dialogueObject: {fileID: 11400000, guid: df256fa0d17f86949a71e86494d71e42, type: 2}
   - responseText: Can you summarize yesterday?
     dialogueObject: {fileID: 11400000, guid: 9b058c7ead532e3429e3b504d251b54a, type: 2}
-  - responseText: That bent wrench at the gas storage is yours?
+  - responseText: Is that bent wrench in the gas storage yours?
     dialogueObject: {fileID: 11400000}
