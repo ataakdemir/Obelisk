@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Cactus
   m_EditorClassIdentifier: 
   dialogue:
-  - '"Ouchh..."'
+  - '"Ouch..."'
   responses: []

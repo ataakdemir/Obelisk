@@ -15,10 +15,10 @@ MonoBehaviour:
   dialogue:
   - 'Boss: Welcome detective. I am Willsan Zefy. Owner of the factory. '
   - 'Odd: Hey boss. How''s the factory doing.'
-  - 'Zefy: We barely making out end of the month. Hard working is must.'
+  - 'Zefy: We are barely making out end of the month. Hard working is must.'
   - 'Odd: Sounds bad. What about workers?'
-  - 'Zefy: We have to pay minimum wage every month. If you know this city. They will
-    have very fine life. But factory barely making that money.'
+  - "Zefy: We have to pay minimum wage every month. If you know this city, they\u2019ll
+    have a very fine life. But the factory is barely making that money."
   - 'Odd: What about you?'
   - 'Zefy: I also get paid minimum wage like everybody. I need to take care of my
     family too.'

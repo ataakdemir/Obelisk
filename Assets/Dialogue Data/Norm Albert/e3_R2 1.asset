@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: e3_R2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - "Albert: I don\u2019t know him much. Maybe you should ask Franklin; they seem
+  - "Albert: I don\u2019t know him much. Maybe you should ask Franklin; they seemed
     close."
   responses:
   - responseText: Let me introduce myself.

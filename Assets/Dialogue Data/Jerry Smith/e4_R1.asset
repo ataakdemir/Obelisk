@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: e4_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - "Smith: He\u2019s generally in the gas storage all day, but I don\u2019t really
+  - "Smith: He was generally in the gas storage all day, but I don\u2019t really
     know."
   - 'Odd: Any guess?'
   - 'Smith: Maybe during the midday break.'

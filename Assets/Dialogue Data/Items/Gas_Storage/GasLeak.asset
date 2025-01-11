@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - '"This tube has a hole, aren''t these gases lethal?"'
-  - '"I should ask the guy who holding files about this"'
+  - '"I should ask the guy who is holding a file about this."'
   responses: []

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Cigarette
   m_EditorClassIdentifier: 
   dialogue:
-  - '"Almost full package of cigarette... For free?."'
+  - '"Almost full package of cigarettes... For free?."'
   - '"I would yoink this, If I wasn''t the good guy."'
   responses: []

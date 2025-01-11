@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: boss_R2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Zefy: I had my breakfast at factory. We prepared next weeks schedule with Carolie.
+  - 'Zefy: I had my breakfast at factory. We prepared next weeks schedule with Coralie.
     I talk with every engineer one by one. Checked their weekly progress.'
   - 'Zefy: Everything was fine until that jerk Wesley started a fight with Hindenburg.
-    I kicked them out. And went to home. That''s whole day for me.'
+    I kicked them out. And went to home. That''s the whole day for me.'
   - 'Odd: Did you see anything unusual.'
   - 'Zefy: No that''s all.'
   responses:

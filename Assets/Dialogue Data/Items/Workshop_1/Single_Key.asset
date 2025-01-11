@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Single_Key
   m_EditorClassIdentifier: 
   dialogue:
-  - '"Someone dropped a key here"'
-  - '"Maybe I should ask that guy"'
+  - '"Someone dropped a key here."'
+  - '"Maybe I should ask that guy."'
   responses: []

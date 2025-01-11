@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Engineer: My man! I''m Franklin Kurt. Let me guess, you are the detective.'
-  - 'Odd: Are you a detective too? I''m Detective Herman Odd and i''m on duty. You
+  - 'Odd: Are you a detective too? I''m Detective Herman Odd and I''m on duty. You
     look like a very sharp guy, what are you doing in this garbage factory?'
-  - "Kurt: I'm  planning to move out of the city. I\u2019ve already secured a job
+  - "Kurt: I'm planning to move out of the city. I\u2019ve already secured a job
     and i'll start working there in a month. "
   - "Kurt: I started working here because I don\u2019t have time to be a trainee."
   responses:

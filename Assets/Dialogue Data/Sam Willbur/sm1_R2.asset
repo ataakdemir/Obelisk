@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: sm1_R2
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Willbur: No, I don''t.'
+  - 'Willbur: No, I didn''t.'
   - 'Odd: When did you last see him?'
   - "Willbur: I don\u2019t remember. I always saw him in his room. He\u2019s not
     much of a social type."

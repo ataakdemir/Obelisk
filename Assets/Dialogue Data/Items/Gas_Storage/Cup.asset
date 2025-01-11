@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - '"It''s coffee but different; it smells weird."'
-  - '"Maybe he likes his coffee this way. I can ask this to someone who was close
-    to him."'
+  - '"Maybe he likes his coffee a different way. I can ask this to someone who was
+    close to him."'
   responses: []

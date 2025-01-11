@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Drugs
   m_EditorClassIdentifier: 
   dialogue:
-  - '"Why is there a prescription medication here?"'
-  - '"It probably belongs to some old guy or someone trying to commit suicide."'
+  - '"Why is there prescription medication here?"'
+  - "\"It probably belongs to some old guy. It\u2019s a prescription medication that
+    could be dangerous if left out in the open. Someone could use it to harm themselves,
+    It's a red-label prescription drug.\""
   responses: []

@@ -18,8 +18,9 @@ MonoBehaviour:
   - 'Odd: More information about you can help me.'
   - "Wilbur: I\u2019m the only child in my family. They passed away a long time ago.
     I love working hard. My goal is to be remembered by all, at least within the
-    zeppelin factories. I live across the city, but being a manager for the first
-    time is worth it."
+    zeppelin factories."
+  - 'Wilbur: I live across the city, but being a manager for the first time is worth
+    it.'
   responses:
   - responseText: "I\u2019m Detective Herman Odd. I\u2019m here for an investigation."
     dialogueObject: {fileID: 11400000}

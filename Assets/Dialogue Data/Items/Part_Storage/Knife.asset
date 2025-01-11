@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Knife
   m_EditorClassIdentifier: 
   dialogue:
-  - '"Some kind of knife with a blood on it"'
-  - '"I should ask yellow arm guy about this"'
+  - '"Some kind of knife with blood on it."'
+  - '"I should ask yellow arm guy about this."'
   responses: []

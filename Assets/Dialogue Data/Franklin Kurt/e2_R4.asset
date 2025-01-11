@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Kurt: Zack wanted me to help him with some calculations about a certain material.
-    He said, ''Two minds are better than one.'
+    He said, ''Two minds are better than one."'
   - "Kurt: We can\u2019t make the same mistake at the same time, right? Hindenburg
     must have had one too. We were going to talk about it today, but..."
   - 'Odd: Sorry mate.'

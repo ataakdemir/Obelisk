@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: e1_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - "Wesley: He\u2019s terrible at his job. I don\u2019t know why the boss loves
-    him so much. I\u2019m way better than him, but no. He probably died because of
-    his own mistake."
-  - "Wesley: Only I know how truly dumb he is. He\u2019s brainwashed everyone else
+  - "Wesley: He was terrible at his job. I don\u2019t know why the boss loved him
+    so much. I\u2019m way better than him, but no. He probably died because of his
+    own mistake."
+  - "Wesley: Only I know how truly dumb he was. He\u2019s brainwashed everyone else
     with his sweet-talking, snake-like tongue. He even took a leaking gas tube we
     were about to throw away."
   - 'Wesley: We work with poisonous gases. That dumbass got himself killed. Case

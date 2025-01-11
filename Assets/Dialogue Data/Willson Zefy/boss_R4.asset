@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - 'Zefy: I forgot it at home.'
-  - 'Odd: Why did you take it to the home. In first place.'
-  - 'Zefy: I mixed up with another key. They all look same.'
+  - 'Odd: Why did you take it home in the first place?'
+  - 'Zefy: I mixed it up with another key. They all look the same.'
   responses:
   - responseText: 'I came as fast as I could. '
     dialogueObject: {fileID: 11400000, guid: 06ba0e4bcbb331a408a10d3528f73f3b, type: 2}

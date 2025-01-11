@@ -16,9 +16,9 @@ MonoBehaviour:
   - 'Janitor: Call me Trom.'
   - 'Odd: The floors look spotless. What''s your secret?'
   - "Trom: Years of experience. As far as I remember, I\u2019ve been doing this job
-    for quite a while. 'cough' Sorry, I know I should quit smoking... Anyway, I can
-    find this kind of job easily. I retired years ago, but after my son-in-law got
-    fired, I started working again."
+    for quite a while. 'cough' Sorry, I know I should quit smoking... "
+  - 'Trom: Anyway, I can find this kind of job easily. I retired years ago, but after
+    my son-in-law got fired, I started working again.'
   - 'Odd: Thank you, Mr. Clean.'
   responses:
   - responseText: "Hi, I\u2019m Detective Herman Odd, and you are...?"

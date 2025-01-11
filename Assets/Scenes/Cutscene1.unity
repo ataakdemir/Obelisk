@@ -536,11 +536,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 712729989}
   lines:
-  - Hi Detective Odd. Someone died at Zefy Zeppelins. Zack Hindenburg was found dead
-    in his desk at gas storage.
+  - Hi! Detective Odd. Someone died at Zefy Zeppelins. Zack Hindenburg was found
+    dead in his desk at gas storage. (Press Space to Continue).
   - You need to find out how Hindenburg died.
   - After interrogating everyone, make a decision.
-  - 'If they don''t want to talk, you can make them talk by pressing E. '
+  - If they don't want to talk, you can make them talk by pressing E and you can
+    close dialogue boxes by pressing ESC.
   - 'Good luck.  '
   textSpeed: 0.05
   nextSceneName: Cutscene2

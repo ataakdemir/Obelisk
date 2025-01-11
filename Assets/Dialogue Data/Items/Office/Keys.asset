@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
   - '"Gas storage key is missing..."'
-  - '"I didn''t see any door at there"'
-  - '"Boss should know something about this"'
+  - '"Boss might know something about this"'
   responses: []

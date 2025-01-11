@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: j_R2 1
   m_EditorClassIdentifier: 
   dialogue:
-  - "Trom: Yeah, I went to the factory, opened up, and started cleaning the entrance.
-    Jerry came late to the factory. I went to my doctor\u2019s appointment at 2:30
-    pm. After I came back, I cleaned the remaining areas and then left."
+  - 'Trom: Yeah, I went to the factory, opened up, and started cleaning the entrance.
+    Jerry came late to the factory.'
+  - "Trom:  I went to my doctor\u2019s appointment at 2:30 pm. After I came back,
+    I cleaned the remaining areas and then left."
   - "Trom: Oh, I remembered one thing. Hindenburg was looking for something and made
     a mess in the storage. We cleaned it up, but we couldn\u2019t find what he was
     looking for."

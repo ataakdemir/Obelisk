@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: boss_R1
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Zefy: He is like a closed box. I don''t know him much. But he was my best employee
-    so far. He was doing his job flawless. I''m pretty upset that he is gone now.'
-  - 'Odd: Will you search for someone to took over his place? '
+  - 'Zefy: He was like a closed box. I didn''t know him much. But he was my best
+    employee so far. He was doing his job flawless. I''m pretty upset that he is
+    gone now.'
+  - 'Odd: Will you search for someone to take over his place? '
   - 'Zefy: That''s Wilbur''s duty. He is responsible with anything about gas storage
     related.'
-  - 'Odd: Okey nice to know.'
+  - 'Odd: Okay nice to know.'
   responses:
   - responseText: 'I came as fast as I could. '
     dialogueObject: {fileID: 11400000, guid: 79aa4775750ab974aaa4a781ed2d9a61, type: 2}

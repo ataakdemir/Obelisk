@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: j_R4
   m_EditorClassIdentifier: 
   dialogue:
-  - "Trom: No, I don\u2019t use that brand of cigarette. You have to be insane to
+  - "Trom: No, I don\u2019t use that brand of cigarettes. You have to be insane to
     smoke that. It can have a drug-like effect on you. I tried it once, and I couldn\u2019t
     get my head together. Never again."
   - 'Odd: Thanks for the info.'
