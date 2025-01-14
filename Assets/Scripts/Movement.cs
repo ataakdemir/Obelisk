@@ -24,6 +24,9 @@ public class Movement : MonoBehaviour
     public GameObject fullBoardIcon;
     public GameObject emptyBoardIcon;
 
+    public GameObject pauseIcon;
+    public GameObject playIcon;
+
     public bool isGamePaused;
     public GameObject pauseMenuUI;
 
@@ -63,7 +66,7 @@ public class Movement : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape) && !dialogueUI.isOpen && !fullBoard.activeSelf && !emptyBoard.activeSelf && !notesPanel.notlar.activeSelf)
+        if (Input.GetKeyDown(KeyCode.P) && !dialogueUI.isOpen && !fullBoard.activeSelf && !emptyBoard.activeSelf && !notesPanel.notlar.activeSelf)
         {
             if (isGamePaused)
             {
@@ -71,11 +74,11 @@ public class Movement : MonoBehaviour
             }
             else
             {
-                Pause();
+                Pause();;
             }
         }
 
-        if (GameManager.Instance.AllNPCsTalkedTo())
+     if (GameManager.Instance.AllNPCsTalkedTo())
         {
             fullBoardIcon.SetActive(true);
             emptyBoardIcon.SetActive(false);
@@ -174,12 +177,16 @@ public class Movement : MonoBehaviour
         pauseMenuUI.SetActive(false); 
         isGamePaused = false;
         Time.timeScale = 1f;
+        pauseIcon.SetActive(true);
+        playIcon.SetActive(false);
     }
     public void Pause()
     {
         pauseMenuUI.SetActive(true);
         isGamePaused = true;
         Time.timeScale = 0f;
+        pauseIcon.SetActive(false);
+        playIcon.SetActive(true);
     }
     public void LoadMainMenu()
     {
